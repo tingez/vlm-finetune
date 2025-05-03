@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "0",
+    "image": {
+      "<image_00>": "VIS_122/visualization.png",
+      "<image_01>": "VIS_122/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The two bar charts display very similar data. Both charts represent the same set of x-axis labels (meter_500 values) and the y-axis represents meter_100 values. The y-axis range is identical (0 to 60). The data points are nearly identical across all x-axis labels, with only a very slight variation in the height of the bars. This suggests the underlying data is very similar, with minor fluctuations.\"}"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "image": {
+      "<image_00>": "VIS_155/visualization.png",
+      "<image_01>": "VIS_155/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.71, \"difference_summary\": \"The charts are different in terms of axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": {
+      "<image_00>": "VIS_332/visualization.png",
+      "<image_01>": "VIS_332/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.71, \"difference_summary\": \"The charts are different in terms of axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "image": {
+      "<image_00>": "VIS_405/visualization.png",
+      "<image_01>": "VIS_405/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts have a high semantic similarity in terms of axes and labels as both use pie charts with 'Carrier' on the y-axis, The charts are very similar in terms of their structure but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "image": {
+      "<image_00>": "VIS_454/visualization.png",
+      "<image_01>": "VIS_454/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The two charts have a high degree of similarity in terms of axes ranges and labels, but differ significantly in their data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "image": {
+      "<image_00>": "VIS_476/visualization.png",
+      "<image_01>": "VIS_476/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The semantic similarity of the two charts is moderately high, indicating that they are quite similar in terms of axes and labels, data points, and overall structure despite the order of the data points across the x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "image": {
+      "<image_00>": "VIS_519/visualization.png",
+      "<image_01>": "VIS_519/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The two charts represent enrollment counts by month, the data order in x-axis is different, and for the bar with the same x-axis values, the y-axis values are similar.\"}"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "image": {
+      "<image_00>": "VIS_562/visualization.png",
+      "<image_01>": "VIS_562/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The two charts display very similar data patterns. Both charts show a consistent value of approximately 58-60 across all x-axis labels. There are no significant differences in the data points or axes ranges, indicating a high degree of semantic similarity, the difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "image": {
+      "<image_00>": "VIS_588/visualization.png",
+      "<image_01>": "VIS_588/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The two charts represent very similar data. Both charts display a downward trend with a sharp initial drop followed by a more gradual decline. The key data points are nearly identical, indicating a high degree of similarity in the underlying data. The overall trend and relative magnitudes of the data points are consistent.\"}"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "image": {
+      "<image_00>": "VIS_590/visualization.png",
+      "<image_01>": "VIS_590/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, only the color difference between the charts.\"}"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "image": {
+      "<image_00>": "VIS_625/visualization.png",
+      "<image_01>": "VIS_625/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, only the color difference between the charts.\"}"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "image": {
+      "<image_00>": "VIS_737/visualization.png",
+      "<image_01>": "VIS_737/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts are very similar in terms of their structure but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "image": {
+      "<image_00>": "VIS_767/visualization.png",
+      "<image_01>": "VIS_767/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.63, \"difference_summary\": \"The charts are very different in terms of their data categories represented.\"}"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "image": {
+      "<image_00>": "VIS_896/visualization.png",
+      "<image_01>": "VIS_896/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, only the data order across the x axis is different.\"}"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "image": {
+      "<image_00>": "VIS_927/visualization.png",
+      "<image_01>": "VIS_927/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, only the data order across the x axis is different.\"}"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "image": {
+      "<image_00>": "VIS_945/visualization.png",
+      "<image_01>": "VIS_945/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, only the data order across the x axis is different.\"}"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "image": {
+      "<image_00>": "VIS_949/visualization.png",
+      "<image_01>": "VIS_949/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, the different is 90 rotation between x and y axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "image": {
+      "<image_00>": "VIS_1019/visualization.png",
+      "<image_01>": "VIS_1019/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The two charts are very similar in terms of their axes and labels. However, upon closer inspection, it can be seen that the data points on the first chart are slightly different from those on the second chart, with some authors having slightly higher or lower values.\"}"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "image": {
+      "<image_00>": "VIS_1078/visualization.png",
+      "<image_01>": "VIS_1078/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels, only the data order across the x axis is different.\"}"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "image": {
+      "<image_00>": "VIS_1154/visualization.png",
+      "<image_01>": "VIS_1154/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels. The X and Y axes of the two charts are swapped.\"}"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "image": {
+      "<image_00>": "VIS_1156/visualization.png",
+      "<image_01>": "VIS_1156/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels.\"}"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "image": {
+      "<image_00>": "VIS_1261/visualization.png",
+      "<image_01>": "VIS_1261/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their structure and data representation, only differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "image": {
+      "<image_00>": "VIS_1263/visualization.png",
+      "<image_01>": "VIS_1263/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts are visually different in terms of their structure and data representation\"}"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "image": {
+      "<image_00>": "VIS_1284/visualization.png",
+      "<image_01>": "VIS_1284/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of axes, labels and data points values.\"}"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "image": {
+      "<image_00>": "VIS_1373/visualization.png",
+      "<image_01>": "VIS_1373/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their structure and data representation, only differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "image": {
+      "<image_00>": "VIS_1471/visualization.png",
+      "<image_01>": "VIS_1471/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of axes labels and data points, with only differences in order across the x axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "image": {
+      "<image_00>": "VIS_1638/visualization.png",
+      "<image_01>": "VIS_1638/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The semantic similarity of the two charts is low, they are somewhat similar in terms of axes and labels but have noticeable differences in data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "image": {
+      "<image_00>": "VIS_1688/visualization.png",
+      "<image_01>": "VIS_1688/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their structure and data representation, only differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "image": {
+      "<image_00>": "VIS_1703/visualization.png",
+      "<image_01>": "VIS_1703/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.6, \"difference_summary\": \"The charts look different in terms of axis, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "image": {
+      "<image_00>": "VIS_1763/visualization.png",
+      "<image_01>": "VIS_1763/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.6, \"difference_summary\": \"The charts look different in terms of axis, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "image": {
+      "<image_00>": "VIS_1780/visualization.png",
+      "<image_01>": "VIS_1780/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of axes labels and data points, with only differences in order across the x axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "image": {
+      "<image_00>": "VIS_1789/visualization.png",
+      "<image_01>": "VIS_1789/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.62, \"difference_summary\": \"The charts look different in terms of axis, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "image": {
+      "<image_00>": "VIS_1796/visualization.png",
+      "<image_01>": "VIS_1796/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts have very high semantic similarity in data points and axes labels, minor differences in data order across the x axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "image": {
+      "<image_00>": "VIS_1866/visualization.png",
+      "<image_01>": "VIS_1866/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels. The X and Y axes of the two charts are swapped.\"}"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "image": {
+      "<image_00>": "VIS_1929/visualization.png",
+      "<image_01>": "VIS_1929/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.62, \"difference_summary\": \"The charts look different in terms of axis, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "image": {
+      "<image_00>": "VIS_2172/visualization.png",
+      "<image_01>": "VIS_2172/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels. The X and Y axes of the two charts are swapped.\"}"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "image": {
+      "<image_00>": "VIS_2178/visualization.png",
+      "<image_01>": "VIS_2178/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts have very high semantic similarity in data points and axes labels, minor differences in data order across the x axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "image": {
+      "<image_00>": "VIS_2283/visualization.png",
+      "<image_01>": "VIS_2283/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts look different in terms of axis, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "image": {
+      "<image_00>": "VIS_2404/visualization.png",
+      "<image_01>": "VIS_2404/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts look different in terms of data partition and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "image": {
+      "<image_00>": "VIS_2508/visualization.png",
+      "<image_01>": "VIS_2508/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts have very high semantic similarity in data points and axes labels, minor differences in data order across the x axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "image": {
+      "<image_00>": "VIS_2843/visualization.png",
+      "<image_01>": "VIS_2843/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts have very high semantic similarity in data points and axes labels.\"}"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "image": {
+      "<image_00>": "VIS_2958/visualization.png",
+      "<image_01>": "VIS_2958/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts look different in terms of axis, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "image": {
+      "<image_00>": "VIS_3112/visualization.png",
+      "<image_01>": "VIS_3112/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts look different in terms of data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "image": {
+      "<image_00>": "VIS_3128/visualization.png",
+      "<image_01>": "VIS_3128/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts have very high semantic similarity in data points and axes labels, minor differences in data order across the x axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "image": {
+      "<image_00>": "VIS_3133/visualization.png",
+      "<image_01>": "VIS_3133/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.6, \"difference_summary\": \"The charts look different in terms of axis, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "image": {
+      "<image_00>": "VIS_3253/visualization.png",
+      "<image_01>": "VIS_3253/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their structure and data representation, only differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "image": {
+      "<image_00>": "VIS_3289/visualization.png",
+      "<image_01>": "VIS_3289/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.5, \"difference_summary\": \"The charts are very different in terms of their structure and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "image": {
+      "<image_00>": "VIS_3314/visualization.png",
+      "<image_01>": "VIS_3314/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.5, \"difference_summary\": \"The charts are very different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "image": {
+      "<image_00>": "VIS_3442/visualization.png",
+      "<image_01>": "VIS_3442/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "image": {
+      "<image_00>": "VIS_3446/visualization.png",
+      "<image_01>": "VIS_3446/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "image": {
+      "<image_00>": "VIS_3519/visualization.png",
+      "<image_01>": "VIS_3519/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.75, \"difference_summary\": \"The charts are very different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "image": {
+      "<image_00>": "VIS_3542/visualization.png",
+      "<image_01>": "VIS_3542/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "image": {
+      "<image_00>": "VIS_3588/visualization.png",
+      "<image_01>": "VIS_3588/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.65, \"difference_summary\": \"The charts looks different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "image": {
+      "<image_00>": "VIS_3618/visualization.png",
+      "<image_01>": "VIS_3618/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "image": {
+      "<image_00>": "VIS_3711/visualization.png",
+      "<image_01>": "VIS_3711/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their structure but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "image": {
+      "<image_00>": "VIS_3778/visualization.png",
+      "<image_01>": "VIS_3778/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "image": {
+      "<image_00>": "VIS_4023/visualization.png",
+      "<image_01>": "VIS_4023/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.65, \"difference_summary\": \"The charts looks different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "image": {
+      "<image_00>": "VIS_4095/visualization.png",
+      "<image_01>": "VIS_4095/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts have a high semantic similarity with data point values and axis labels. The X and Y axes of the two charts are swapped.\"}"
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "image": {
+      "<image_00>": "VIS_4178/visualization.png",
+      "<image_01>": "VIS_4178/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "image": {
+      "<image_00>": "VIS_4191/visualization.png",
+      "<image_01>": "VIS_4191/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "image": {
+      "<image_00>": "VIS_4317/visualization.png",
+      "<image_01>": "VIS_4317/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.65, \"difference_summary\": \"The charts have a low semantic similarity with data point values.\"}"
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "image": {
+      "<image_00>": "VIS_4405/visualization.png",
+      "<image_01>": "VIS_4405/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their structure but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "image": {
+      "<image_00>": "VIS_4499/visualization.png",
+      "<image_01>": "VIS_4499/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "image": {
+      "<image_00>": "VIS_4567/visualization.png",
+      "<image_01>": "VIS_4567/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.94, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "image": {
+      "<image_00>": "VIS_4716/visualization.png",
+      "<image_01>": "VIS_4716/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.94, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "image": {
+      "<image_00>": "VIS_4746/visualization.png",
+      "<image_01>": "VIS_4746/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.75, \"difference_summary\": \"The two charts share a similar structure with a code on the x-axis and revenue on the y-axis. However, the data points themselves differ significantly. Chart 1 has data points at (1, 125), (2, 100), (3, 50), (4, 200), (5, 133), and (6, 33). Chart 2 has data points at (1, 120), (2, 100), (3, 50), (4, 200), (5, 130), and (6, 30). The revenue values for codes 1, 5, and 6 are slightly different between the two charts. The overall trend is similar, but the specific revenue values vary.\"}"
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "image": {
+      "<image_00>": "VIS_4899/visualization.png",
+      "<image_01>": "VIS_4899/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "image": {
+      "<image_00>": "VIS_4929/visualization.png",
+      "<image_01>": "VIS_4929/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "image": {
+      "<image_00>": "VIS_4999/visualization.png",
+      "<image_01>": "VIS_4999/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "image": {
+      "<image_00>": "VIS_5083/visualization.png",
+      "<image_01>": "VIS_5083/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "image": {
+      "<image_00>": "VIS_5127/visualization.png",
+      "<image_01>": "VIS_5127/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "image": {
+      "<image_00>": "VIS_5160/visualization.png",
+      "<image_01>": "VIS_5160/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "image": {
+      "<image_00>": "VIS_5347/visualization.png",
+      "<image_01>": "VIS_5347/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.3, \"difference_summary\": \"The charts are very different in terms of their data types and categories represented, there are differences in their visual presentation such as color scheme and layout.\"}"
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "image": {
+      "<image_00>": "VIS_5428/visualization.png",
+      "<image_01>": "VIS_5428/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "image": {
+      "<image_00>": "VIS_5470/visualization.png",
+      "<image_01>": "VIS_5470/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "image": {
+      "<image_00>": "VIS_5495/visualization.png",
+      "<image_01>": "VIS_5495/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "image": {
+      "<image_00>": "VIS_5669/visualization.png",
+      "<image_01>": "VIS_5669/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, units, labels, data points' values, and order; however, they differ slightly due to a minor change in scale on one axis. The first chart has an x-axis ranging from 1789-01-01 to 2002-01-01 with discrete years as markers, while the second chart's x-axis ranges similarly but starts at 1780 instead of 1789.\"}"
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "image": {
+      "<image_00>": "VIS_5679/visualization.png",
+      "<image_01>": "VIS_5679/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts are very similar in terms of their structure and data representation but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "image": {
+      "<image_00>": "VIS_5773/visualization.png",
+      "<image_01>": "VIS_5773/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.73, \"difference_summary\": \"The charts are very different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "image": {
+      "<image_00>": "VIS_5840/visualization.png",
+      "<image_01>": "VIS_5840/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "image": {
+      "<image_00>": "VIS_5903/visualization.png",
+      "<image_01>": "VIS_5903/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their structure and data representation but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "image": {
+      "<image_00>": "VIS_5916/visualization.png",
+      "<image_01>": "VIS_5916/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts are very similar in terms of their axis, label, structure, and data representation.\"}"
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "image": {
+      "<image_00>": "VIS_6051/visualization.png",
+      "<image_01>": "VIS_6051/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "image": {
+      "<image_00>": "VIS_6064/visualization.png",
+      "<image_01>": "VIS_6064/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.93, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "image": {
+      "<image_00>": "VIS_6079/visualization.png",
+      "<image_01>": "VIS_6079/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their structure and data points but differ slightly in color coding for different competitions.\"}"
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "image": {
+      "<image_00>": "VIS_6089/visualization.png",
+      "<image_01>": "VIS_6089/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts have different trends in data points over time with a noticeable peak around 2009 and subsequent decline until 2014, followed by stabilization from 2015. The x-axis labels are discrete values representing opening years of the chart.\"}"
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "image": {
+      "<image_00>": "VIS_6105/visualization.png",
+      "<image_01>": "VIS_6105/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.7, \"difference_summary\": \"The charts are different in terms of x-axis and label\"}"
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "image": {
+      "<image_00>": "VIS_6169/visualization.png",
+      "<image_01>": "VIS_6169/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.9, \"difference_summary\": \"The two charts display similar distributions of document descriptions, but with notable differences in the frequency of certain categories. The most significant difference is the much higher count for 'N' in the second chart compared to the first.  The count for 'L' is also slightly higher in the second chart. All other categories show relatively similar counts, suggesting a broadly consistent underlying data pattern, but with a shift in the prevalence of 'N' and 'L'.\"}"
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "image": {
+      "<image_00>": "VIS_6238/visualization.png",
+      "<image_01>": "VIS_6238/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.69, \"difference_summary\": \"The charts are different in terms of x-axis, label and data point\"}"
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "image": {
+      "<image_00>": "VIS_6257/visualization.png",
+      "<image_01>": "VIS_6257/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "image": {
+      "<image_00>": "VIS_6280/visualization.png",
+      "<image_01>": "VIS_6280/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.69, \"difference_summary\": \"The charts are different in terms of x-axis, label and data point\"}"
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "image": {
+      "<image_00>": "VIS_6383/visualization.png",
+      "<image_01>": "VIS_6383/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "image": {
+      "<image_00>": "VIS_6472/visualization.png",
+      "<image_01>": "VIS_6472/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "image": {
+      "<image_00>": "VIS_6574/visualization.png",
+      "<image_01>": "VIS_6574/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their structure but differ slightly in color scheme.\"}"
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "image": {
+      "<image_00>": "VIS_6604/visualization.png",
+      "<image_01>": "VIS_6604/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "image": {
+      "<image_00>": "VIS_6715/visualization.png",
+      "<image_01>": "VIS_6715/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.69, \"difference_summary\": \"The charts are very different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "image": {
+      "<image_00>": "VIS_6762/visualization.png",
+      "<image_01>": "VIS_6762/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.65, \"difference_summary\": \"The charts are very different in terms of their axes ranges, labels, and data points.\"}"
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "image": {
+      "<image_00>": "VIS_6915/visualization.png",
+      "<image_01>": "VIS_6915/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.92, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is the data order in x-axis.\"}"
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "image": {
+      "<image_00>": "VIS_6935/visualization.png",
+      "<image_01>": "VIS_6935/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.95, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points\"}"
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "image": {
+      "<image_00>": "VIS_7025/visualization.png",
+      "<image_01>": "VIS_7025/ref_visualization.png"
+    },
+    "conversations": [
+      {
+        "role": "user",
+        "content": "calculate the semantic similarity score between\n<image_00>\n<image_01>\n, the semantic similarity is based on the follow criteria:\n1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?\n2. Data Points: Are the key data points significantly different?\n3. **ignore** the color difference across these two chart images when comparing them.\n4. **ignore** data points order difference if x-axis labels are discrete values.\n5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.\n6. focus on **the subtle difference of underlying data** to form these two chart images carefully.\nreturn the following information:\n1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images\n2. the difference_summary to describe the significant difference between these two chart images\n"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"similarity_score\": 0.91, \"difference_summary\": \"The charts are very similar in terms of their axes ranges, labels, and data points, only difference is order of x-axis.\"}"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+calculate the semantic similarity score between <image_00>, <image_01>
+the semantic similarity is based on the follow criteria:
+1. Axes and Labels: Are the axes ranges, units, and labels similar between the two charts?
+2. Data Points: Are the key data points significantly different?
+3. **ignore** the color difference across these two chart images when comparing them.
+4. **ignore** data points order difference if x-axis labels are discrete values.
+5. **ignore** the x-axis and y-axis maybe rotated 90 degrees between the two charts.
+6. focus on **the subtle difference of underlying data** to form these two chart images carefully.
+return the following information:
+1. the similarity_score between 0 and 1, the higher the score, the more similar these two chart images
+2. the difference_summary to describe the significant difference between these two chart images
+
+only output json format data
+Do **NOT** output any other information

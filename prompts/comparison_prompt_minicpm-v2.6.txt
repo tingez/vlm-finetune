@@ -1,0 +1,30 @@
+You are given two chart images: `<image_00>` and `<image_01>`.
+
+Your task is to **compare the semantic content** of these charts and determine how similar they are in terms of their **underlying data and structure**, not appearance.
+
+### Please follow these detailed instructions:
+
+#### Focus on:
+
+1. **Axes and Labels**: Are axis ranges, units, and labels (e.g., x-axis and y-axis) similar?
+2. **Data Points**: Are key data points or trends (peaks, slopes, patterns) significantly different?
+3. **Subtle Differences**: Carefully identify small but meaningful changes in data that affect the charts’ shapes or conclusions.
+
+#### Ignore:
+
+* **Color differences** between the charts.
+* **Order of data points**, if the x-axis uses **discrete categories**.
+* **Rotation of axes**: The x and y axes might be rotated (swapped) by 90 degrees.
+
+---
+
+### Output Format:
+
+Please return your response in this format:
+
+```json
+{
+  "similarity_score": <float between 0 and 1>,
+  "difference_summary": "<concise description of the significant differences>"
+}
+```

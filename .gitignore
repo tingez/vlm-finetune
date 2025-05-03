@@ -1,0 +1,4 @@
+.venv
+*.pyc
+__pycache__
+finetune_dataset/dataset.json

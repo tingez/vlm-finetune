@@ -1,0 +1,3854 @@
+[
+    {
+        "ID": 10,
+        "KEY": "1096",
+        "TYPE": "line",
+        "DB": "department_management",
+        "TABLE": "department",
+        "Query": "Show sum of budget in each year and bin creation time by year in a line chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 22,
+        "KEY": "2032",
+        "TYPE": "scatter",
+        "DB": "insurance_policies",
+        "TABLE": "Payments",
+        "Query": "Which Payments were processed with Visa? Get the payment Id, the date and the amount for visualizing a scatter chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 71,
+        "KEY": "2799",
+        "TYPE": "pie",
+        "DB": "soccer_2",
+        "TABLE": "college",
+        "Query": "A pie chart for the proportion of the smallest enrollment in each state.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 72,
+        "KEY": "3137@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A bar chart shows the distribution of ACC_Regular_Season and All_Games_Percent , rank All_Games_Percent in ascending order please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 130,
+        "KEY": "2964",
+        "TYPE": "line",
+        "DB": "tracking_grants_for_research",
+        "TABLE": "Project_Staff",
+        "Query": "When do all the researcher role staff start to work? Bin the time into YEAR interval and count them with a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 145,
+        "KEY": "1498",
+        "TYPE": "bar",
+        "DB": "gas_company",
+        "TABLE": "company",
+        "Query": "List all headquarters and the number of companies in each headquarter with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 167,
+        "KEY": "3135@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Find ACC_Regular_Season and ACC_Percent , and visualize them by a bar chart, display from low to high by the X-axis.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 177,
+        "KEY": "1414@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "flight_1",
+        "TABLE": "Aircraft",
+        "Query": "Return a histogram on what are the names and distances for all airplanes?, display in descending by the total number.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 181,
+        "KEY": "2922@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Show me about the distribution of meter_600 and ID in a bar chart, and order by the ID from high to low.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 189,
+        "KEY": "711@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "course_teach",
+        "TABLE": "teacher",
+        "Query": "What are the age and hometown of teachers Visualize by bar chart, and I want to show Y from low to high order please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 197,
+        "KEY": "2927@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Visualize a bar chart about the distribution of Time and meter_100 , and show in ascending by the total number.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 235,
+        "KEY": "1902@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Give me a bar chart for employee_id of each last name, and show in asc by the y-axis.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 259,
+        "KEY": "1400",
+        "TYPE": "pie",
+        "DB": "flight_1",
+        "TABLE": "Flight",
+        "Query": "Show how many flights for each origin city with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 283,
+        "KEY": "96",
+        "TYPE": "bar",
+        "DB": "apartment_rentals",
+        "TABLE": "Apartments",
+        "Query": "Show the minimum room count of apartments in different type with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 284,
+        "KEY": "2053@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "journal_committee",
+        "TABLE": "editor",
+        "Query": "Visualize a bar chart to show editors' names and their ages, and I want to sort from low to high by the Name.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 304,
+        "KEY": "623",
+        "TYPE": "bar",
+        "DB": "college_2",
+        "TABLE": "classroom",
+        "Query": "Find the maximum capacity among rooms in each building with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 308,
+        "KEY": "3208",
+        "TYPE": "bar",
+        "DB": "wedding",
+        "TABLE": "people",
+        "Query": "Show the name and age for all male people who don't have a wedding with a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 312,
+        "KEY": "3134@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a bar chart about the distribution of Team_Name and All_Games_Percent , and list Team_Name from low to high order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 315,
+        "KEY": "3143@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Show me about the distribution of All_Road and All_Games_Percent in a bar chart, and I want to show by the names in desc please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 330,
+        "KEY": "3110@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Find Team_Name and Team_ID , and visualize them by a bar chart, and show by the Y-axis in asc.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 377,
+        "KEY": "2606",
+        "TYPE": "pie",
+        "DB": "product_catalog",
+        "TABLE": "Catalog_Contents",
+        "Query": "Find the name and capacity of products with price greater than 700 (in USD). Visualize by pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 387,
+        "KEY": "871",
+        "TYPE": "pie",
+        "DB": "cre_Drama_Workshop_Groups",
+        "TABLE": "INVOICES",
+        "Query": "Show all payment method codes and the number of orders for each code by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 392,
+        "KEY": "3114@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Show me about the distribution of All_Games and Team_ID in a bar chart, and list Team_ID from low to high order please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 396,
+        "KEY": "3111@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Return a bar chart about the distribution of Team_Name and School_ID , could you order by the X-axis in ascending?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 410,
+        "KEY": "2905",
+        "TYPE": "scatter",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Show me about the correlation between  ID and  meter_100  in a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 429,
+        "KEY": "1898@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "You can return a bar chart to show the employees' first name and the corresponding department's id, show in asc by the y-axis.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 441,
+        "KEY": "2941",
+        "TYPE": "bar",
+        "DB": "theme_gallery",
+        "TABLE": "artist",
+        "Query": "Compare all countries with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 446,
+        "KEY": "376",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Give me the comparison about the amount of Sex over the  Sex , and group by attribute Sex by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 453,
+        "KEY": "96@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "apartment_rentals",
+        "TABLE": "Apartments",
+        "Query": "Bar graph to show minimal room count from different apt type code, and order in ascending by the Y-axis.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 501,
+        "KEY": "1173",
+        "TYPE": "pie",
+        "DB": "dog_kennels",
+        "TABLE": "Charges",
+        "Query": "Visualize a pie chart with how much does each charge type costs? List both charge type and amount.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 512,
+        "KEY": "3127",
+        "TYPE": "pie",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A pie chart shows the proportion of  ACC_Regular_Season and  Team_ID.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 522,
+        "KEY": "415",
+        "TYPE": "line",
+        "DB": "car_1",
+        "TABLE": "CARS_DATA",
+        "Query": "Visualize a line chart for what is the average weight of cars each year?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 523,
+        "KEY": "399",
+        "TYPE": "scatter",
+        "DB": "candidate_poll",
+        "TABLE": "candidate",
+        "Query": "Plot a scatter chart, to show the correlation between support and consider rates for each candidate.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 537,
+        "KEY": "2915@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Show me about the distribution of name and meter_100 in a bar chart, rank y axis in desc order please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 541,
+        "KEY": "2921@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Give me the comparison about meter_100 over the meter_500 by a bar chart, and sort from high to low by the meter_100.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 570,
+        "KEY": "783",
+        "TYPE": "bar",
+        "DB": "cre_Doc_Tracking_DB",
+        "TABLE": "Ref_calendar",
+        "Query": "Show all calendar dates and bin by weekday in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 571,
+        "KEY": "1906@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Can you list the employee's last name and the corresponding department id using a bar chart?, and could you show by the y axis from high to low please?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 593,
+        "KEY": "2962",
+        "TYPE": "bar",
+        "DB": "tracking_grants_for_research",
+        "TABLE": "Project_Staff",
+        "Query": "When do all the researcher role staff start to work? Bin the time into weekday interval and count them with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 602,
+        "KEY": "537",
+        "TYPE": "scatter",
+        "DB": "college_1",
+        "TABLE": "student",
+        "Query": "Find the relationship between minimum and average gpa of all students in each department with a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 684,
+        "KEY": "1748",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, visualize a scatter chart about the correlation between  employee_id and  salary .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 687,
+        "KEY": "2269",
+        "TYPE": "scatter",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "For those records from the products and each product's manufacturer, a scatter chart shows the correlation between  price and  code .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 689,
+        "KEY": "359",
+        "TYPE": "scatter",
+        "DB": "body_builder",
+        "TABLE": "body_builder",
+        "Query": "Visualize a scatter chart about the correlation between  People_ID and  Total .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 726,
+        "KEY": "1174@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Charges",
+        "Query": "Give me a bar chart for charge_amount of each charge type, could you list by the x axis in asc?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 753,
+        "KEY": "1749",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, draw a scatter chart about the correlation between  employee_id and  commission_pct .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 761,
+        "KEY": "1339@x_name@ASC",
+        "TYPE": "line",
+        "DB": "employee_hire_evaluation",
+        "TABLE": "hiring",
+        "Query": "Show me the trend about Employee_ID over Start_from with a line chart, I want to display by the X in asc.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 764,
+        "KEY": "1271",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "A bar chart shows the distribution of  family_name and  author_tutor_ATB .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 818,
+        "KEY": "2638",
+        "TYPE": "bar",
+        "DB": "protein_institute",
+        "TABLE": "building",
+        "Query": "Please compare the number of floors for all street address using a bar chart, and order by the number of floors.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 822,
+        "KEY": "1361",
+        "TYPE": "line",
+        "DB": "employee_hire_evaluation",
+        "TABLE": "hiring",
+        "Query": "A line chart shows the change of the average of Employee_ID over  Start_from bin start_from by time",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 837,
+        "KEY": "352",
+        "TYPE": "scatter",
+        "DB": "body_builder",
+        "TABLE": "body_builder",
+        "Query": "A scatter chart shows the correlation between  Body_Builder_ID and  People_ID .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 841,
+        "KEY": "2130@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "local_govt_in_alabama",
+        "TABLE": "Participants",
+        "Query": "Bar chart x axis participant details y axis participant_id, rank from high to low by the X-axis.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 916,
+        "KEY": "3050",
+        "TYPE": "bar",
+        "DB": "train_station",
+        "TABLE": "station",
+        "Query": "Show the names and total passengers for all train stations not in London with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 921,
+        "KEY": "1229",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "Display a bar chart for how many students are from each city, and which cities have more than one cities?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 950,
+        "KEY": "339",
+        "TYPE": "bar",
+        "DB": "bike_1",
+        "TABLE": "station",
+        "Query": "List the name and the number of stations for all the cities that have at least 15 stations with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 984,
+        "KEY": "2194",
+        "TYPE": "pie",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "For those products with a price between 60 and 120, draw a pie chart about the proportion of  name and  code.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 992,
+        "KEY": "1910@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Plot salary by grouped by email as a bar graph, and rank x-axis in asc order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1015,
+        "KEY": "3144",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Show me about the distribution of  All_Neutral and  ACC_Percent  in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1035,
+        "KEY": "906",
+        "TYPE": "pie",
+        "DB": "culture_company",
+        "TABLE": "book_club",
+        "Query": "Show all book categories and the number of books in each category in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1050,
+        "KEY": "689",
+        "TYPE": "pie",
+        "DB": "concert_singer",
+        "TABLE": "singer",
+        "Query": "Show all countries and the number of singers in each country by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1053,
+        "KEY": "2195",
+        "TYPE": "scatter",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "For those products with a price between 60 and 120, draw a scatter chart about the correlation between  code and  price .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1054,
+        "KEY": "2384",
+        "TYPE": "pie",
+        "DB": "movie_1",
+        "TABLE": "Rating",
+        "Query": "Show the stars of each director by a pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1062,
+        "KEY": "3134@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Give me the comparison about All_Games_Percent over the Team_Name , I want to list by the y axis from high to low.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1069,
+        "KEY": "2921@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Give me the comparison about meter_100 over the meter_500 by a bar chart, rank in asc by the bar.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1102,
+        "KEY": "1843",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Show the average salary by each hire date of employees, and please bin the hire date into the Month interval for showing a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1116,
+        "KEY": "3106",
+        "TYPE": "scatter",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a scatter chart about the correlation between  Team_ID and  All_Games_Percent .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1180,
+        "KEY": "1411",
+        "TYPE": "bar",
+        "DB": "flight_1",
+        "TABLE": "Flight",
+        "Query": "Show all origins and the number of flights from each origin by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1201,
+        "KEY": "3260",
+        "TYPE": "bar",
+        "DB": "workshop_paper",
+        "TABLE": "workshop",
+        "Query": "A bar chart shows the venue for each workshop.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1208,
+        "KEY": "3102",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a bar chart about the distribution of  All_Home and the sum of Team_ID , and group by attribute All_Home.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1212,
+        "KEY": "1101",
+        "TYPE": "line",
+        "DB": "department_management",
+        "TABLE": "department",
+        "Query": "Show average of budget in different year and group by department creation time with a line chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1219,
+        "KEY": "2304",
+        "TYPE": "bar",
+        "DB": "manufactory_1",
+        "TABLE": "manufacturers",
+        "Query": "Give me a bar chart with the headquarters and revenues for manufacturers, sorted by revenue descending.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1228,
+        "KEY": "2549",
+        "TYPE": "pie",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Find the average age for each type of pet. Visualize them as a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1232,
+        "KEY": "2924",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "A bar chart shows the distribution of  meter_700 and  ID .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1250,
+        "KEY": "495",
+        "TYPE": "bar",
+        "DB": "coffee_shop",
+        "TABLE": "member",
+        "Query": "Find the number of members living in each address. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1279,
+        "KEY": "2453",
+        "TYPE": "bar",
+        "DB": "network_1",
+        "TABLE": "Highschooler",
+        "Query": "Show the names and their average grades of each high schooler with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1280,
+        "KEY": "3146@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Find All_Neutral and All_Games_Percent , and visualize them by a bar chart, display by the Y-axis in ascending.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1290,
+        "KEY": "2738",
+        "TYPE": "pie",
+        "DB": "ship_1",
+        "TABLE": "ship",
+        "Query": "Show me a pie chart for what are the different ship flags, and how many ships have each?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1307,
+        "KEY": "3193",
+        "TYPE": "pie",
+        "DB": "voter_1",
+        "TABLE": "votes",
+        "Query": "List the states of all votes, compute the total number of states, and sum their vote id with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1317,
+        "KEY": "530",
+        "TYPE": "pie",
+        "DB": "college_1",
+        "TABLE": "student",
+        "Query": "Find the max gpa of all students in each department with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1319,
+        "KEY": "1130@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "department_store",
+        "TABLE": "products",
+        "Query": "Draw a bar chart of product type code versus minimal product price, and rank in desc by the X.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1324,
+        "KEY": "3119@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Show me about the distribution of All_Neutral and School_ID in a bar chart, and list in desc by the X.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1326,
+        "KEY": "1492",
+        "TYPE": "pie",
+        "DB": "game_injury",
+        "TABLE": "game",
+        "Query": "Show the number of games for each away team in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1363,
+        "KEY": "1262",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Draw a bar chart about the distribution of  password and  author_tutor_ATB .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1382,
+        "KEY": "3144@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Bar chart of acc_percent from each all neutral, and display by the Y-axis in descending.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1389,
+        "KEY": "863",
+        "TYPE": "bar",
+        "DB": "cre_Drama_Workshop_Groups",
+        "TABLE": "BOOKINGS",
+        "Query": "Show all the actual delivery dates and bin by weekday in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1391,
+        "KEY": "2558",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Find the maximum weight for each type of pet. List the maximum weight and pet type. Visualize by bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1395,
+        "KEY": "2336",
+        "TYPE": "pie",
+        "DB": "mountain_photos",
+        "TABLE": "mountain",
+        "Query": "Draw a pie chart for what are the id and name of the mountains that have at least 2 photos?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1421,
+        "KEY": "1897",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Just show the first name of the employee and list their manager's id in the Y-axis of the bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1452,
+        "KEY": "2592",
+        "TYPE": "scatter",
+        "DB": "poker_player",
+        "TABLE": "poker_player",
+        "Query": "List the final tables made and the best finishes of poker players in a scatter chart",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1485,
+        "KEY": "3115",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a bar chart about the distribution of  All_Games and  School_ID .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1496,
+        "KEY": "2489",
+        "TYPE": "pie",
+        "DB": "news_report",
+        "TABLE": "journalist",
+        "Query": "Show me a pie chart for what are the nationalities and the total ages of journalists?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1504,
+        "KEY": "2919@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Find meter_400 and meter_100 , and visualize them by a bar chart, and sort from low to high by the X.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1507,
+        "KEY": "860",
+        "TYPE": "bar",
+        "DB": "cre_Drama_Workshop_Groups",
+        "TABLE": "BOOKINGS",
+        "Query": "List the order dates of all the bookings, and count them by a bar chart",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1546,
+        "KEY": "1517",
+        "TYPE": "pie",
+        "DB": "gas_company",
+        "TABLE": "company",
+        "Query": "Show the number of companies in each headquarter with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1555,
+        "KEY": "3210@x_name@ASC",
+        "TYPE": "line",
+        "DB": "wedding",
+        "TABLE": "Church",
+        "Query": "Give me the trend about the number of church opening in each year, and display X-axis from low to high order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1563,
+        "KEY": "405",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "A bar chart showing the average weight for each gender.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1577,
+        "KEY": "474@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "cinema",
+        "TABLE": "cinema",
+        "Query": "Show the capacity for each cinema in a bar chart, list y axis in asc order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1635,
+        "KEY": "2763@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "ship_mission",
+        "TABLE": "mission",
+        "Query": "What is the total number of each fate? Give me the result in a bar graph, display x-axis in descending order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1636,
+        "KEY": "621",
+        "TYPE": "bar",
+        "DB": "college_2",
+        "TABLE": "course",
+        "Query": "Find the total credits of courses provided by different department. Plot them as bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1637,
+        "KEY": "887",
+        "TYPE": "pie",
+        "DB": "cre_Theme_park",
+        "TABLE": "Tourist_Attractions",
+        "Query": "Show different ways to get to attractions and the number of attractions that can be accessed in the corresponding way in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1643,
+        "KEY": "2379",
+        "TYPE": "scatter",
+        "DB": "movie_1",
+        "TABLE": "Rating",
+        "Query": "Show score of the movie with the lowest rating among all movies directed with a scatter chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1647,
+        "KEY": "3138@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A bar chart shows the distribution of All_Games and ACC_Percent , could you display by the x-axis in asc?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1651,
+        "KEY": "2203",
+        "TYPE": "bar",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "Select the name of each manufacturer along with the price of its most expensive product using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1665,
+        "KEY": "397@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Visualize a bar chart about the distribution of Date_of_Birth and Height , and list from high to low by the Date_of_Birth please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1675,
+        "KEY": "802",
+        "TYPE": "pie",
+        "DB": "cre_Docs_and_Epenses",
+        "TABLE": "Documents_with_expenses",
+        "Query": "Show budget type codes and the number of documents in each budget type by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1677,
+        "KEY": "2563",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "student",
+        "Query": "Draw a bar chart for what are the different first names and ages of the students who do have pets?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1681,
+        "KEY": "397",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Visualize a bar chart about the distribution of  Date_of_Birth and  Height .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1691,
+        "KEY": "671",
+        "TYPE": "scatter",
+        "DB": "college_3",
+        "TABLE": "COURSE",
+        "Query": "Draw a scatter chart about the correlation between  CID and  Instructor .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1719,
+        "KEY": "382",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Give me the comparison about the sum of Weight over the  Sex , and group by attribute Sex by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1725,
+        "KEY": "2108@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "local_govt_and_lot",
+        "TABLE": "Residents",
+        "Query": "Bar chart x axis other details y axis resident_id, sort by the bars from low to high please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1736,
+        "KEY": "2551",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Find the id and weight of all pets whose age is older than 1. Visualize by bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1760,
+        "KEY": "435",
+        "TYPE": "bar",
+        "DB": "chinook_1",
+        "TABLE": "EMPLOYEE",
+        "Query": "A bar chart for listing the number of the phone numbers of all employees.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1784,
+        "KEY": "1170",
+        "TYPE": "pie",
+        "DB": "dog_kennels",
+        "TABLE": "Dogs",
+        "Query": "List the dog name and weight of the dogs who have been abandoned in a pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1805,
+        "KEY": "2462",
+        "TYPE": "pie",
+        "DB": "network_2",
+        "TABLE": "Person",
+        "Query": "Display a pie chart for what is minimum age for different job title?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1808,
+        "KEY": "2877",
+        "TYPE": "scatter",
+        "DB": "student_1",
+        "TABLE": "list",
+        "Query": "Find the number of students in one classroom. Plot them as scatter chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1838,
+        "KEY": "395@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Show me about the distribution of Name and Weight in a bar chart, and I want to sort in descending by the Y.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1843,
+        "KEY": "1421",
+        "TYPE": "bar",
+        "DB": "flight_company",
+        "TABLE": "operate_company",
+        "Query": "Return a histogram on what are the ids and names of the companies that operated more than one flight?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 1851,
+        "KEY": "2820",
+        "TYPE": "bar",
+        "DB": "sports_competition",
+        "TABLE": "competition",
+        "Query": "List the types of competition and the number of competitions of each type in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1944,
+        "KEY": "3140@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Give me the comparison about All_Games_Percent over the All_Games , rank Y-axis in desc order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 1980,
+        "KEY": "2013",
+        "TYPE": "pie",
+        "DB": "insurance_policies",
+        "TABLE": "Payments",
+        "Query": "What about the proportion of the total amounts of payments by each method code? You can give me a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2026,
+        "KEY": "3145",
+        "TYPE": "pie",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a pie chart about the proportion of  All_Neutral and  All_Games_Percent.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2033,
+        "KEY": "969",
+        "TYPE": "scatter",
+        "DB": "customers_and_invoices",
+        "TABLE": "Financial_transactions",
+        "Query": "Show the relationship between account id and name for each account in a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2041,
+        "KEY": "2624",
+        "TYPE": "pie",
+        "DB": "program_share",
+        "TABLE": "channel",
+        "Query": "Find the total rating ratio for each channel owner. Show a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2048,
+        "KEY": "2484",
+        "TYPE": "bar",
+        "DB": "news_report",
+        "TABLE": "journalist",
+        "Query": "Show the different nationalities and the number of journalists of each nationality in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2052,
+        "KEY": "2193",
+        "TYPE": "pie",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "For those products with a price between 60 and 120, draw a pie chart about the proportion of  name and  manufacturer.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2086,
+        "KEY": "346",
+        "TYPE": "bar",
+        "DB": "bike_1",
+        "TABLE": "weather",
+        "Query": "I want a bar chart to show the frequency of the dates that have the 5 highest cloud cover rates each day.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2107,
+        "KEY": "2547@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Bar graph, the X-axis is the pet types and the Y-axis is their max pet age, I want to show X from high to low order please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2159,
+        "KEY": "85",
+        "TYPE": "bar",
+        "DB": "apartment_rentals",
+        "TABLE": "Apartment_Bookings",
+        "Query": "Show the number of apartment bookings in each year and bin booking start date by year with a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2162,
+        "KEY": "3138@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A bar chart shows the distribution of All_Games and ACC_Percent , could you list from high to low by the names?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2173,
+        "KEY": "3123",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Show me about the distribution of  ACC_Road and the amount of ACC_Road , and group by attribute ACC_Road in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2181,
+        "KEY": "1898@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "You can return a bar chart to show the employees' first name and the corresponding department's id, I want to list Y from high to low order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2191,
+        "KEY": "1910@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Plot salary by grouped by email as a bar graph, sort total number in ascending order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2217,
+        "KEY": "3131",
+        "TYPE": "pie",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A pie chart shows the proportion of  ACC_Road and the sum of Team_ID.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2218,
+        "KEY": "2547@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Find the maximum age for each type of pet Return the result with a bar chart, and list Y-axis from high to low order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2236,
+        "KEY": "771",
+        "TYPE": "line",
+        "DB": "cre_Doc_Tracking_DB",
+        "TABLE": "Document_locations",
+        "Query": "Show the number of documents in different starting date and bin starting date by year interval with a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2269,
+        "KEY": "2690",
+        "TYPE": "bar",
+        "DB": "sakila_1",
+        "TABLE": "film_category",
+        "Query": "List the genre name and genre id using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2279,
+        "KEY": "2503",
+        "TYPE": "bar",
+        "DB": "party_host",
+        "TABLE": "HOST",
+        "Query": "Show different nationalities along with the number of hosts of each nationality in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2319,
+        "KEY": "307",
+        "TYPE": "bar",
+        "DB": "bike_1",
+        "TABLE": "station",
+        "Query": "For each city, return the highest latitude among its stations. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2340,
+        "KEY": "364",
+        "TYPE": "bar",
+        "DB": "book_2",
+        "TABLE": "publication",
+        "Query": "Show different publishers together with the number of publications they have in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2347,
+        "KEY": "2569",
+        "TYPE": "bar",
+        "DB": "phone_market",
+        "TABLE": "phone",
+        "Query": "What is the number of carriers of phones? Give me a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2368,
+        "KEY": "2571",
+        "TYPE": "pie",
+        "DB": "phone_market",
+        "TABLE": "phone",
+        "Query": "Return a pie chart on what are the memories and carriers of phones?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2370,
+        "KEY": "1181",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Dogs",
+        "Query": "How many dogs arrived in each year? Visualize with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2371,
+        "KEY": "1741",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, show me about the correlation between  salary and  commission_pct  in a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2374,
+        "KEY": "51",
+        "TYPE": "scatter",
+        "DB": "allergy_1",
+        "TABLE": "Student",
+        "Query": "Show all advisors and corresponding number of students by a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2375,
+        "KEY": "347",
+        "TYPE": "bar",
+        "DB": "bike_1",
+        "TABLE": "weather",
+        "Query": "What is the total cloud cover rates of the dates (bin into day of the week interval) that had the top 5 cloud cover rates? You can show me a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2406,
+        "KEY": "1902@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Give me a bar chart for employee_id of each last name, could you order in asc by the x-axis?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2407,
+        "KEY": "1062",
+        "TYPE": "bar",
+        "DB": "customers_card_transactions",
+        "TABLE": "Customers_cards",
+        "Query": "Show all card type codes and the number of cards in each type by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2432,
+        "KEY": "380",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Return a bar chart about the distribution of  Sex and the average of Height , and group by attribute Sex.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2481,
+        "KEY": "445",
+        "TYPE": "bar",
+        "DB": "cinema",
+        "TABLE": "film",
+        "Query": "List all directors along with the number of films directed by each director in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2491,
+        "KEY": "1304@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "election",
+        "TABLE": "county",
+        "Query": "Show the county name and population of all counties Show bar chart, show in desc by the X please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2505,
+        "KEY": "886",
+        "TYPE": "bar",
+        "DB": "cre_Theme_park",
+        "TABLE": "Tourist_Attractions",
+        "Query": "Show the names and ids of tourist attractions that are visited at least two times with a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2510,
+        "KEY": "1899",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Use a histogram to show the department's id and corresponding employees' first name.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2517,
+        "KEY": "118",
+        "TYPE": "pie",
+        "DB": "assets_maintenance",
+        "TABLE": "Parts",
+        "Query": "Visualize a pie chart with which parts have more than 2 faults? Show the part name and id.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2526,
+        "KEY": "2108@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "local_govt_and_lot",
+        "TABLE": "Residents",
+        "Query": "Just list the resident id and details in a bar chart, and rank in ascending by the resident_id.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2550,
+        "KEY": "1972",
+        "TYPE": "scatter",
+        "DB": "inn_1",
+        "TABLE": "Rooms",
+        "Query": "What is the relationship between the average price and the minimum price  of the rooms for each different decor? How about using a line chart to show them.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2557,
+        "KEY": "360",
+        "TYPE": "scatter",
+        "DB": "body_builder",
+        "TABLE": "body_builder",
+        "Query": "A scatter chart shows the correlation between  Body_Builder_ID and  Clean_Jerk .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2572,
+        "KEY": "1093",
+        "TYPE": "line",
+        "DB": "department_management",
+        "TABLE": "department",
+        "Query": "Show the number of departments created in different year and bin creation time by year in a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2577,
+        "KEY": "897",
+        "TYPE": "scatter",
+        "DB": "cre_Theme_park",
+        "TABLE": "HOTELS",
+        "Query": "Show the id and star rating of each hotel, ordered by its price from low to high by a scatter chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2579,
+        "KEY": "3003",
+        "TYPE": "scatter",
+        "DB": "tracking_share_transactions",
+        "TABLE": "TRANSACTIONS",
+        "Query": "Show the number of transactions for different investors with a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2586,
+        "KEY": "1232",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "Find the average age of students living in each city with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2592,
+        "KEY": "3066",
+        "TYPE": "bar",
+        "DB": "twitter_1",
+        "TABLE": "user_profiles",
+        "Query": "Find the name and partition id for users who tweeted less than twice. Show bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2638,
+        "KEY": "580",
+        "TYPE": "bar",
+        "DB": "college_1",
+        "TABLE": "CLASS",
+        "Query": "Find the number of classes offered for all class rooms that held at least 2 classes. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2641,
+        "KEY": "394@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Draw a bar chart of name versus height, could you sort by the bar in desc?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2664,
+        "KEY": "3283",
+        "TYPE": "bar",
+        "DB": "wrestler",
+        "TABLE": "elimination",
+        "Query": "Show the number of teams in elimination in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2675,
+        "KEY": "3111@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a bar chart about the distribution of Team_Name and School_ID , and display in desc by the Y-axis.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2693,
+        "KEY": "2790",
+        "TYPE": "bar",
+        "DB": "soccer_2",
+        "TABLE": "Player",
+        "Query": "Find the name and training hours of players whose hours are below 1500. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2706,
+        "KEY": "1624",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "locations",
+        "Query": "Group and count the city attribute of the location table to visualize a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2708,
+        "KEY": "2926@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Draw a bar chart about the distribution of Time and ID , rank by the bars from low to high.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2732,
+        "KEY": "1745",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, a scatter chart shows the correlation between  manager_id and  department_id .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2739,
+        "KEY": "3140@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Give me the comparison about All_Games_Percent over the All_Games by a bar chart, could you list names in descending order?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2741,
+        "KEY": "2919@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Find meter_400 and meter_100 , and visualize them by a bar chart, and rank by the X in descending please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2752,
+        "KEY": "3238",
+        "TYPE": "bar",
+        "DB": "wine_1",
+        "TABLE": "WINE",
+        "Query": "Display a bar chart for what are the numbers of wines for different grapes?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2757,
+        "KEY": "3135",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a bar chart about the distribution of  ACC_Regular_Season and  ACC_Percent .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2764,
+        "KEY": "2993",
+        "TYPE": "bar",
+        "DB": "tracking_share_transactions",
+        "TABLE": "LOTS",
+        "Query": "A bar chart groups the lot details, and computes the number of each lot details.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2769,
+        "KEY": "1000",
+        "TYPE": "bar",
+        "DB": "customers_and_products_contacts",
+        "TABLE": "products",
+        "Query": "Compare the frequency of product names using a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2799,
+        "KEY": "2130@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "local_govt_in_alabama",
+        "TABLE": "Participants",
+        "Query": "Bar chart x axis participant details y axis participant_id, and order in descending by the y-axis please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2804,
+        "KEY": "3210@x_name@DESC",
+        "TYPE": "line",
+        "DB": "wedding",
+        "TABLE": "Church",
+        "Query": "Show me a line chart of how the number of open date change over the open date, list by the Open_Date in desc please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2807,
+        "KEY": "1010",
+        "TYPE": "bar",
+        "DB": "customers_and_products_contacts",
+        "TABLE": "addresses",
+        "Query": "Show each state and the number of addresses in each state by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2842,
+        "KEY": "2610",
+        "TYPE": "bar",
+        "DB": "products_for_hire",
+        "TABLE": "customers",
+        "Query": "Take the first name of all the good customers as the X-axis and gender of all the good customers as Y-axis in a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2861,
+        "KEY": "1261",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Give me the comparison about  author_id over the  password  by a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2873,
+        "KEY": "2844",
+        "TYPE": "bar",
+        "DB": "station_weather",
+        "TABLE": "train",
+        "Query": "Find the number of trains starting from each origin. Plot them as bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2881,
+        "KEY": "1282",
+        "TYPE": "pie",
+        "DB": "e_learning",
+        "TABLE": "Student_Course_Enrolment",
+        "Query": "Find the student ID and personal name of the student with at least two enrollments. Plot them as pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2893,
+        "KEY": "1085",
+        "TYPE": "bar",
+        "DB": "decoration_competition",
+        "TABLE": "member",
+        "Query": "A bar chart showing the number of members in each country.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2902,
+        "KEY": "2925@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Give me the comparison about meter_100 over the meter_700 , could you show bars in desc order?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 2915,
+        "KEY": "2472",
+        "TYPE": "pie",
+        "DB": "network_2",
+        "TABLE": "Person",
+        "Query": "Draw a pie chart for what is the average age for each gender?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2961,
+        "KEY": "1184",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Dogs",
+        "Query": "How many dogs arrived in each day? Visualize with a bar chart that bins arrived date by weekday.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2996,
+        "KEY": "553",
+        "TYPE": "bar",
+        "DB": "college_1",
+        "TABLE": "CLASS",
+        "Query": "Visualize a bar chart for how many sections does each course has?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 2999,
+        "KEY": "3025",
+        "TYPE": "bar",
+        "DB": "tracking_software_problems",
+        "TABLE": "problem_log",
+        "Query": "Find all the ids and dates of the logs for the problem whose id is 10. Plot them as bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3037,
+        "KEY": "2488",
+        "TYPE": "bar",
+        "DB": "news_report",
+        "TABLE": "journalist",
+        "Query": "Visualize a bar chart for what are the nationalities and their average ages of journalists?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3050,
+        "KEY": "3109",
+        "TYPE": "scatter",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Return a scatter chart about the correlation between  School_ID and  All_Games_Percent .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3104,
+        "KEY": "1152",
+        "TYPE": "bar",
+        "DB": "document_management",
+        "TABLE": "users",
+        "Query": "Find the number of users in each role. Plot them as bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3111,
+        "KEY": "2809",
+        "TYPE": "pie",
+        "DB": "solvency_ii",
+        "TABLE": "Products",
+        "Query": "A pie chart shows the proportion of different product type codes.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3116,
+        "KEY": "3012",
+        "TYPE": "line",
+        "DB": "tracking_share_transactions",
+        "TABLE": "TRANSACTIONS",
+        "Query": "Bin all date of transactions into the YEAR interval, and calculate the average the share count for each bin. Visualize the result using a trend line.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3119,
+        "KEY": "3220",
+        "TYPE": "bar",
+        "DB": "wine_1",
+        "TABLE": "WINE",
+        "Query": "Please give me a bar chart that counts the number of grape of wine.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3132,
+        "KEY": "1076",
+        "TYPE": "pie",
+        "DB": "debate",
+        "TABLE": "debate",
+        "Query": "How many debates are held for each venue? Show a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3171,
+        "KEY": "379",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "A bar chart shows the distribution of  Sex and the sum of Height , and group by attribute Sex.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3234,
+        "KEY": "3049",
+        "TYPE": "pie",
+        "DB": "train_station",
+        "TABLE": "station",
+        "Query": "For all train stations not in London with a pie chart, show me the proportion of total_passengers of different names.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3250,
+        "KEY": "2466",
+        "TYPE": "pie",
+        "DB": "network_2",
+        "TABLE": "Person",
+        "Query": "Count the job title of all people using a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3282,
+        "KEY": "2607",
+        "TYPE": "bar",
+        "DB": "product_catalog",
+        "TABLE": "Catalog_Contents",
+        "Query": "Find the name and capacity of products with price greater than 700 (in USD). Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3292,
+        "KEY": "3146@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Show me about the distribution of All_Neutral and All_Games_Percent in a bar chart, list by the names in desc.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3306,
+        "KEY": "2547@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Bar graph, the X-axis is the pet types and the Y-axis is their max pet age, and list Y in asc order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3312,
+        "KEY": "1519",
+        "TYPE": "bar",
+        "DB": "gas_company",
+        "TABLE": "company",
+        "Query": "List the company name and rank for all companies in the decreasing order of their sales in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3333,
+        "KEY": "2613",
+        "TYPE": "bar",
+        "DB": "products_for_hire",
+        "TABLE": "Customers",
+        "Query": "How many bookings did each customer make? Show the customer id as the Y-axis and the first name as the X-axis in a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3345,
+        "KEY": "3117@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a bar chart about the distribution of All_Road and School_ID , sort y axis in descending order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3349,
+        "KEY": "343",
+        "TYPE": "bar",
+        "DB": "bike_1",
+        "TABLE": "weather",
+        "Query": "What is the frequency of the dates (bin into year interval) that had the top 5 cloud cover rates? You can draw me a bar chart for this purpose.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3362,
+        "KEY": "2053@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "journal_committee",
+        "TABLE": "editor",
+        "Query": "Compare each editors' ages using a bar chart, and could you list bars in descending order?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3378,
+        "KEY": "2701",
+        "TYPE": "pie",
+        "DB": "school_bus",
+        "TABLE": "driver",
+        "Query": "Show the party and the number of drivers in each party by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3421,
+        "KEY": "1185",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Dogs",
+        "Query": "How many dogs departed in each day? Visualize with a bar chart that bins departed date by weekday.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3443,
+        "KEY": "1750",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, show me about the correlation between  employee_id and  department_id  in a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3473,
+        "KEY": "1371",
+        "TYPE": "bar",
+        "DB": "entrepreneur",
+        "TABLE": "entrepreneur",
+        "Query": "Display a bar chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3481,
+        "KEY": "2787",
+        "TYPE": "pie",
+        "DB": "soccer_2",
+        "TABLE": "tryout",
+        "Query": "For each position, what is the minimum time students spent practicing. Show a pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3487,
+        "KEY": "3103",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A bar chart shows the distribution of  All_Home and the average of Team_ID , and group by attribute All_Home.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3549,
+        "KEY": "2921@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Bar chart x axis meter 500 y axis meter_100, sort y-axis in ascending order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3580,
+        "KEY": "3043",
+        "TYPE": "bar",
+        "DB": "train_station",
+        "TABLE": "station",
+        "Query": "A bar chart shows how many locations.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3589,
+        "KEY": "2830",
+        "TYPE": "bar",
+        "DB": "station_weather",
+        "TABLE": "station",
+        "Query": "A bar graph listing the local authorities and how many local authorities provided by all stations.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3596,
+        "KEY": "2519",
+        "TYPE": "bar",
+        "DB": "party_people",
+        "TABLE": "party",
+        "Query": "Give me a bar chart showing the total number of each minister.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3601,
+        "KEY": "58",
+        "TYPE": "bar",
+        "DB": "allergy_1",
+        "TABLE": "Student",
+        "Query": "Show the average age for male and female students with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3611,
+        "KEY": "2186@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph, and sort by the y-axis in asc.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3638,
+        "KEY": "2380",
+        "TYPE": "pie",
+        "DB": "movie_1",
+        "TABLE": "Rating",
+        "Query": "Show the title and score of the movie with a pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3652,
+        "KEY": "1708",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Scatter chart. what is the minimum salary in each department?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3657,
+        "KEY": "2914@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Return a bar chart about the distribution of name and ID , and rank Y from low to high order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3673,
+        "KEY": "1398",
+        "TYPE": "scatter",
+        "DB": "film_rank",
+        "TABLE": "film_market_estimation",
+        "Query": "Draw a scatter chart for what are the low and high estimates of film markets?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3680,
+        "KEY": "1988",
+        "TYPE": "bar",
+        "DB": "insurance_fnol",
+        "TABLE": "customers",
+        "Query": "List all the customers in increasing order of IDs by a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3684,
+        "KEY": "2560",
+        "TYPE": "bar",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Visualize a bar chart for what is the average weight for each type of pet?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3700,
+        "KEY": "1324",
+        "TYPE": "bar",
+        "DB": "election_representative",
+        "TABLE": "representative",
+        "Query": "Bar chart of the total number from each party",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3715,
+        "KEY": "156",
+        "TYPE": "line",
+        "DB": "baseball_1",
+        "TABLE": "hall_of_fame",
+        "Query": "Show me a line chart for how many players enter hall of fame each year?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3716,
+        "KEY": "809",
+        "TYPE": "bar",
+        "DB": "cre_Docs_and_Epenses",
+        "TABLE": "Documents",
+        "Query": "Show the number of documents for different document name in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3761,
+        "KEY": "394@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Give me the comparison about Height over the Name by a bar chart, and could you rank y-axis in desc order please?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3774,
+        "KEY": "1905@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Just show the employee's last name and their department's id using a bar chart, display by the DEPARTMENT_ID in descending.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3790,
+        "KEY": "682",
+        "TYPE": "bar",
+        "DB": "company_employee",
+        "TABLE": "company",
+        "Query": "Return a bar chart about the number of companies for each industry.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3821,
+        "KEY": "1169",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Dogs",
+        "Query": "List the dog name and weight of the dogs who have been abandoned in a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3824,
+        "KEY": "465",
+        "TYPE": "bar",
+        "DB": "cinema",
+        "TABLE": "cinema",
+        "Query": "Tell me how many cinemas open for each year in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3833,
+        "KEY": "2724",
+        "TYPE": "bar",
+        "DB": "school_player",
+        "TABLE": "school",
+        "Query": "For each denomination, return the denomination and the count of schools with that denomination. Visualize by bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3844,
+        "KEY": "2421",
+        "TYPE": "bar",
+        "DB": "music_1",
+        "TABLE": "files",
+        "Query": "For each file format, return the number of artists who released songs in that format. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3846,
+        "KEY": "1511",
+        "TYPE": "bar",
+        "DB": "gas_company",
+        "TABLE": "gas_station",
+        "Query": "Show the number of gas stations for each manager in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3861,
+        "KEY": "1729",
+        "TYPE": "line",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, visualize a line chart about the change of  manager_id over  hire_date .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3879,
+        "KEY": "2602",
+        "TYPE": "bar",
+        "DB": "product_catalog",
+        "TABLE": "Catalogs",
+        "Query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3881,
+        "KEY": "533",
+        "TYPE": "bar",
+        "DB": "college_1",
+        "TABLE": "student",
+        "Query": "Find the minimum gpa of all students in each department with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3887,
+        "KEY": "492",
+        "TYPE": "bar",
+        "DB": "coffee_shop",
+        "TABLE": "shop",
+        "Query": "Find the address and staff number of the shops that do not have any happy hour. Visualize by bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3888,
+        "KEY": "3115@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Give me the comparison about School_ID over the All_Games by a bar chart, could you list by the names in asc?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3901,
+        "KEY": "23",
+        "TYPE": "pie",
+        "DB": "activity_1",
+        "TABLE": "Faculty",
+        "Query": "For each faculty rank, show the number of faculty members who have it. Visualize by pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 3917,
+        "KEY": "3142",
+        "TYPE": "pie",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "For the attribute  All_Road and  All_Games_Percent, show their proportion by a pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3931,
+        "KEY": "3114",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Find  All_Games and  Team_ID , and visualize them by a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3980,
+        "KEY": "3118@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a bar chart about the distribution of All_Neutral and Team_ID , rank by the bar in asc.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 3984,
+        "KEY": "926",
+        "TYPE": "bar",
+        "DB": "customers_and_invoices",
+        "TABLE": "Accounts",
+        "Query": "Show the number of accounts in a bar chart that groups by other account details.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4022,
+        "KEY": "1153",
+        "TYPE": "bar",
+        "DB": "document_management",
+        "TABLE": "documents",
+        "Query": "Find the name and access counts of all documents, in alphabetic order of the document name. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4030,
+        "KEY": "3143",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a bar chart about the distribution of  All_Road and  All_Games_Percent .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4041,
+        "KEY": "374",
+        "TYPE": "pie",
+        "DB": "browser_web",
+        "TABLE": "web_client_accelerator",
+        "Query": "Draw a pie chart for what are the ids and names of the web accelerators that are compatible with two or more browsers?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4044,
+        "KEY": "2313",
+        "TYPE": "pie",
+        "DB": "manufacturer",
+        "TABLE": "furniture",
+        "Query": "Give me the names and prices of furnitures which some companies are manufacturing with a pie chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4053,
+        "KEY": "1233",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "Find the average age of all students living in the each city. Show bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4066,
+        "KEY": "2919@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Return a bar chart about the distribution of meter_400 and meter_100 , display meter_100 in ascending order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4082,
+        "KEY": "1791",
+        "TYPE": "line",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who was hired before 2002-06-21, show me the trend about  department_id over  hire_date  with a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4091,
+        "KEY": "96@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "apartment_rentals",
+        "TABLE": "Apartments",
+        "Query": "Return a bar chart showing the minimum room count of apartments in different type, could you display y axis from high to low order?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4148,
+        "KEY": "2807",
+        "TYPE": "bar",
+        "DB": "solvency_ii",
+        "TABLE": "Products",
+        "Query": "Show different type codes of products and the number of products with each type code in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4152,
+        "KEY": "2841",
+        "TYPE": "bar",
+        "DB": "station_weather",
+        "TABLE": "weekly_weather",
+        "Query": "Draw a bar chart for what is the average high temperature for each day of week?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4157,
+        "KEY": "1416",
+        "TYPE": "bar",
+        "DB": "flight_4",
+        "TABLE": "airports",
+        "Query": "Find the altitude (or elevation) of the airports in the city of New York with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4166,
+        "KEY": "1259",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Draw a bar chart about the distribution of  login_name and  author_tutor_ATB .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4185,
+        "KEY": "3117",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A bar chart shows the distribution of  All_Road and  School_ID .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4188,
+        "KEY": "345",
+        "TYPE": "bar",
+        "DB": "bike_1",
+        "TABLE": "weather",
+        "Query": "What is the average cloud cover rates of the dates (bin into year interval) that had the top 5 cloud cover rates? You can draw me a bar chart for this purpose.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4206,
+        "KEY": "140",
+        "TYPE": "bar",
+        "DB": "assets_maintenance",
+        "TABLE": "Assets",
+        "Query": "Show the number of assets and group by asset make in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4208,
+        "KEY": "753",
+        "TYPE": "bar",
+        "DB": "cre_Doc_Template_Mgt",
+        "TABLE": "Templates",
+        "Query": "Show all template type codes and number of templates for each with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4264,
+        "KEY": "1497",
+        "TYPE": "pie",
+        "DB": "gas_company",
+        "TABLE": "company",
+        "Query": "List all headquarters and the number of companies in each headquarter in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4366,
+        "KEY": "2925@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Give me the comparison about meter_100 over the meter_700 , and I want to rank y axis from low to high order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4383,
+        "KEY": "1300",
+        "TYPE": "line",
+        "DB": "e_learning",
+        "TABLE": "Student_Course_Enrolment",
+        "Query": "List the number of completion students in each day and group by date of completion in a line chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4413,
+        "KEY": "1896",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Just show employees' salaries by their first name in a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4419,
+        "KEY": "2920@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Return a bar chart about the distribution of meter_500 and ID , and could you sort in descending by the total number?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4427,
+        "KEY": "2926@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Draw a bar chart about the distribution of Time and ID , could you sort y-axis in desc order?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4434,
+        "KEY": "2124",
+        "TYPE": "scatter",
+        "DB": "local_govt_and_lot",
+        "TABLE": "customer_events",
+        "Query": "Just list the customer event id and the corresponding move property id using a scatter.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4435,
+        "KEY": "767",
+        "TYPE": "scatter",
+        "DB": "cre_Doc_Tracking_DB",
+        "TABLE": "Documents_to_be_destroyed",
+        "Query": "Show the id of each employee and the number of document destruction authorised by that employee by a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4458,
+        "KEY": "862",
+        "TYPE": "bar",
+        "DB": "cre_Drama_Workshop_Groups",
+        "TABLE": "BOOKINGS",
+        "Query": "Show all the planned delivery dates and bin by weekday in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4468,
+        "KEY": "2843",
+        "TYPE": "bar",
+        "DB": "station_weather",
+        "TABLE": "weekly_weather",
+        "Query": "Find the id and local authority of the station whose maximum precipitation is higher than 50. Visualize by bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4490,
+        "KEY": "1244",
+        "TYPE": "pie",
+        "DB": "driving_school",
+        "TABLE": "Customers",
+        "Query": "List all customer status codes and the number of customers having each status code by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4508,
+        "KEY": "2559",
+        "TYPE": "pie",
+        "DB": "pets_1",
+        "TABLE": "pets",
+        "Query": "Find the average weight for each pet type. Plot them as pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4512,
+        "KEY": "2463@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "network_2",
+        "TABLE": "Person",
+        "Query": "Draw a bar chart for what is minimum age for different job title?, and I want to rank in desc by the y axis.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4590,
+        "KEY": "1342",
+        "TYPE": "bar",
+        "DB": "employee_hire_evaluation",
+        "TABLE": "hiring",
+        "Query": "Draw a bar chart about the distribution of  Start_from and the sum of Employee_ID bin start_from by weekday.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4616,
+        "KEY": "1255",
+        "TYPE": "scatter",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Draw a scatter chart about the correlation between  author_id and  gender_mf .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4657,
+        "KEY": "3116",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a bar chart about the distribution of  All_Road and  Team_ID .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4686,
+        "KEY": "356",
+        "TYPE": "scatter",
+        "DB": "body_builder",
+        "TABLE": "body_builder",
+        "Query": "Visualize a scatter chart about the correlation between  Snatch and  Clean_Jerk .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4717,
+        "KEY": "3264",
+        "TYPE": "pie",
+        "DB": "workshop_paper",
+        "TABLE": "acceptance",
+        "Query": "Compute the proportion of acceptance result, and return a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4720,
+        "KEY": "2684",
+        "TYPE": "scatter",
+        "DB": "roller_coaster",
+        "TABLE": "roller_coaster",
+        "Query": "What are the lengths and heights of roller coasters. Show scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4723,
+        "KEY": "3108",
+        "TYPE": "scatter",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "A scatter chart shows the correlation between  Team_ID and  School_ID .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4729,
+        "KEY": "1898@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "You can return a bar chart to show the employees' first name and the corresponding department's id, display x axis from low to high order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4751,
+        "KEY": "2502",
+        "TYPE": "pie",
+        "DB": "party_host",
+        "TABLE": "HOST",
+        "Query": "Show different nationalities along with the number of hosts of each nationality by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4757,
+        "KEY": "2699@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "school_bus",
+        "TABLE": "driver",
+        "Query": "Bar graph to show age from different name, sort Y in descending order please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4780,
+        "KEY": "1728",
+        "TYPE": "line",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who did not have any job in the past, draw a line chart about the change of  employee_id over  hire_date .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4809,
+        "KEY": "3282",
+        "TYPE": "pie",
+        "DB": "wrestler",
+        "TABLE": "elimination",
+        "Query": "A pie chart shows the proportion of the number of teams in elimination.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4811,
+        "KEY": "2769",
+        "TYPE": "bar",
+        "DB": "shop_membership",
+        "TABLE": "member",
+        "Query": "Count the hometown by hometown using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4820,
+        "KEY": "1021",
+        "TYPE": "pie",
+        "DB": "customers_campaigns_ecommerce",
+        "TABLE": "mailshot_customers",
+        "Query": "Show the outcome code of mailshots along with the number of mailshots in each outcome code with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4857,
+        "KEY": "2376",
+        "TYPE": "scatter",
+        "DB": "movie_1",
+        "TABLE": "Rating",
+        "Query": "Return me a scatter chart to show the star rating of the movie for each reviewer.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4858,
+        "KEY": "2916@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Find meter_300 and ID , and visualize them by a bar chart, and display y-axis from low to high order.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4859,
+        "KEY": "1899@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Use a histogram to show the department's id and corresponding employees' first name, and order by the y axis in desc please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4869,
+        "KEY": "2134",
+        "TYPE": "pie",
+        "DB": "local_govt_in_alabama",
+        "TABLE": "EVENTS",
+        "Query": "Group and count details for the events using a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4879,
+        "KEY": "1237",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "Find the average age for students with different sex in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4891,
+        "KEY": "2776@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "singer",
+        "TABLE": "singer",
+        "Query": "Show different citizenships and the maximum net worth of singers of each citizenship in a bar chart, and order in descending by the X-axis.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4901,
+        "KEY": "3117@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a bar chart about the distribution of All_Road and School_ID , and sort in desc by the x axis.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 4938,
+        "KEY": "1793",
+        "TYPE": "scatter",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "For those employees who was hired before 2002-06-21, draw a scatter chart about the correlation between  employee_id and  commission_pct .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4945,
+        "KEY": "407",
+        "TYPE": "scatter",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "A scatter chart showing the relationship between average and minimum weight for each gender.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 4964,
+        "KEY": "1898",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Just show the first name of the employee and list their department's id in the Y-axis of the bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5017,
+        "KEY": "1414",
+        "TYPE": "bar",
+        "DB": "flight_1",
+        "TABLE": "Aircraft",
+        "Query": "Show name and distance for all aircrafts by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5021,
+        "KEY": "2436",
+        "TYPE": "bar",
+        "DB": "music_4",
+        "TABLE": "music_festival",
+        "Query": "Return the number of music festivals of each category in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5063,
+        "KEY": "1325",
+        "TYPE": "pie",
+        "DB": "election_representative",
+        "TABLE": "election",
+        "Query": "List the dates and vote percents of elections by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5079,
+        "KEY": "3071",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "university",
+        "Query": "Find the total student enrollment for different affiliation type schools. Plot them as bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5089,
+        "KEY": "2158",
+        "TYPE": "scatter",
+        "DB": "local_govt_mdm",
+        "TABLE": "parking_fines",
+        "Query": "List the council tax ids and their related cmi cross references of all the parking fines by a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5108,
+        "KEY": "1323",
+        "TYPE": "pie",
+        "DB": "election_representative",
+        "TABLE": "representative",
+        "Query": "What are the different parties of representative? Show the party name and the number of representatives in each party. Plot them as pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5117,
+        "KEY": "1260",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Draw a bar chart about the distribution of  login_name and  gender_mf .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5125,
+        "KEY": "2868",
+        "TYPE": "bar",
+        "DB": "storm_record",
+        "TABLE": "storm",
+        "Query": "For all storms with at least 1 death, show me the name and the total number of deaths with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5130,
+        "KEY": "2622",
+        "TYPE": "pie",
+        "DB": "program_share",
+        "TABLE": "broadcast",
+        "Query": "Count the number of programs broadcast for each time section of a day by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5136,
+        "KEY": "2761",
+        "TYPE": "pie",
+        "DB": "ship_mission",
+        "TABLE": "ship",
+        "Query": "Show different types of ships and the number of ships of each type with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5138,
+        "KEY": "1090",
+        "TYPE": "pie",
+        "DB": "decoration_competition",
+        "TABLE": "member",
+        "Query": "Show the different countries and the number of members from each by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5172,
+        "KEY": "2881",
+        "TYPE": "pie",
+        "DB": "student_assessment",
+        "TABLE": "courses",
+        "Query": "Give me a pie chart show the proportion of the number of course names in the course table.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5180,
+        "KEY": "2107",
+        "TYPE": "bar",
+        "DB": "local_govt_and_lot",
+        "TABLE": "Customers",
+        "Query": "Please compare the frequency of the customer details using a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5192,
+        "KEY": "711@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "course_teach",
+        "TABLE": "teacher",
+        "Query": "Return a histogram on what are the age and hometown of teachers?, could you show by the x axis from high to low?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5222,
+        "KEY": "1068",
+        "TYPE": "pie",
+        "DB": "debate",
+        "TABLE": "people",
+        "Query": "Show different parties of people along with the number of people in each party by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5260,
+        "KEY": "2186@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "Show the name of the product that is cheapest in each product category with their minimum price with a bar graph, and sort from high to low by the bars.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5294,
+        "KEY": "1174@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Charges",
+        "Query": "Visualize a bar chart for how much does each charge type costs? List both charge type and amount, sort by the Y in descending.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5302,
+        "KEY": "1037",
+        "TYPE": "bar",
+        "DB": "customers_card_transactions",
+        "TABLE": "Customers",
+        "Query": "Show the number of customers for different customer last name in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5317,
+        "KEY": "3033",
+        "TYPE": "bar",
+        "DB": "tracking_software_problems",
+        "TABLE": "problem_log",
+        "Query": "List all the log entry descriptions and count them using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5318,
+        "KEY": "1099",
+        "TYPE": "bar",
+        "DB": "department_management",
+        "TABLE": "department",
+        "Query": "List the budget of each department in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5325,
+        "KEY": "585",
+        "TYPE": "pie",
+        "DB": "college_1",
+        "TABLE": "course",
+        "Query": "A pie chart about what is the total credit does each department offer?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5328,
+        "KEY": "1110",
+        "TYPE": "bar",
+        "DB": "department_management",
+        "TABLE": "head",
+        "Query": "Show the number of heads of departments born in each state with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5390,
+        "KEY": "768",
+        "TYPE": "pie",
+        "DB": "cre_Doc_Tracking_DB",
+        "TABLE": "Document_locations",
+        "Query": "Show the number of documents for each location code in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5417,
+        "KEY": "2483",
+        "TYPE": "pie",
+        "DB": "news_report",
+        "TABLE": "journalist",
+        "Query": "Show the different nationalities and the number of journalists of each nationality with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5425,
+        "KEY": "828",
+        "TYPE": "pie",
+        "DB": "cre_Docs_and_Epenses",
+        "TABLE": "Ref_document_types",
+        "Query": "Show the number of document type for different document type description in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5442,
+        "KEY": "735",
+        "TYPE": "pie",
+        "DB": "cre_Doc_Template_Mgt",
+        "TABLE": "Templates",
+        "Query": "How many templates for each template type code? Show me a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5453,
+        "KEY": "1905@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Just show the employee's last name and their department's id using a bar chart, and display by the x-axis from high to low please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5458,
+        "KEY": "3215",
+        "TYPE": "pie",
+        "DB": "wedding",
+        "TABLE": "people",
+        "Query": "Show all countries and the number of people from each country in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5481,
+        "KEY": "1238@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "Find the oldest age for students with different sex in a bar chart, and I want to list y-axis from high to low order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5482,
+        "KEY": "1370",
+        "TYPE": "pie",
+        "DB": "entrepreneur",
+        "TABLE": "entrepreneur",
+        "Query": "Display a pie chart for what are the investors of entrepreneurs and the corresponding number of entrepreneurs invested by each investor?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5497,
+        "KEY": "398@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "candidate_poll",
+        "TABLE": "people",
+        "Query": "Give me the comparison about Weight over the Date_of_Birth , list from high to low by the bar.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5499,
+        "KEY": "3239",
+        "TYPE": "bar",
+        "DB": "wine_1",
+        "TABLE": "WINE",
+        "Query": "Bin the year attribute into the Year interval and count them for a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5553,
+        "KEY": "2914@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "A bar chart shows the distribution of name and ID , could you list bar in ascending order?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5559,
+        "KEY": "2793",
+        "TYPE": "pie",
+        "DB": "soccer_2",
+        "TABLE": "College",
+        "Query": "Visualize a pie chart about the proportion of  state and  enr.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5579,
+        "KEY": "3269",
+        "TYPE": "bar",
+        "DB": "world_1",
+        "TABLE": "country",
+        "Query": "For each continent where the average life expectancy is shorter than 72, draw a bar chart to show their average life expectancy.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5614,
+        "KEY": "1112",
+        "TYPE": "bar",
+        "DB": "department_management",
+        "TABLE": "head",
+        "Query": "Show the average age of heads of departments born in each state with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5625,
+        "KEY": "533@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "college_1",
+        "TABLE": "student",
+        "Query": "Find the minimum gpa of all students in each department with a bar chart, and sort bar in descending order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5643,
+        "KEY": "2539",
+        "TYPE": "bar",
+        "DB": "performance_attendance",
+        "TABLE": "performance",
+        "Query": "Compare the total number of locations in each location using a bar graph.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5646,
+        "KEY": "2079",
+        "TYPE": "bar",
+        "DB": "local_govt_and_lot",
+        "TABLE": "residents",
+        "Query": "What are the distinct move in dates of the residents, and count them by a bar chart",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5649,
+        "KEY": "1327",
+        "TYPE": "pie",
+        "DB": "election_representative",
+        "TABLE": "representative",
+        "Query": "How many representatives in each party? Visualize with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5661,
+        "KEY": "679",
+        "TYPE": "bar",
+        "DB": "company_employee",
+        "TABLE": "company",
+        "Query": "Show the different headquarters and number of companies at each headquarter with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5690,
+        "KEY": "1345",
+        "TYPE": "bar",
+        "DB": "employee_hire_evaluation",
+        "TABLE": "hiring",
+        "Query": "Draw a bar chart about the distribution of  Is_full_time and the sum of Shop_ID , and group by attribute Is_full_time.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5694,
+        "KEY": "1970@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "inn_1",
+        "TABLE": "Rooms",
+        "Query": "Show the minimum of the rooms in different decor using a bar chart, show by the total number in desc please.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5702,
+        "KEY": "531@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "college_1",
+        "TABLE": "student",
+        "Query": "Show me maximal stu gpa by dept code in a histogram, list bar from low to high order please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5709,
+        "KEY": "172",
+        "TYPE": "bar",
+        "DB": "battle_death",
+        "TABLE": "battle",
+        "Query": "A bar chart listing the number of battle date.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5763,
+        "KEY": "675",
+        "TYPE": "scatter",
+        "DB": "college_3",
+        "TABLE": "COURSE",
+        "Query": "Visualize a scatter chart about the correlation between  Credits and  Instructor .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5808,
+        "KEY": "1533",
+        "TYPE": "scatter",
+        "DB": "hospital_1",
+        "TABLE": "affiliated_with",
+        "Query": "List the physicians' employee ids together with their primary affiliation departments' ids with a scatter chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5824,
+        "KEY": "2759",
+        "TYPE": "pie",
+        "DB": "ship_mission",
+        "TABLE": "ship",
+        "Query": "A pie chart showing the total number of each ship's nationality.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5826,
+        "KEY": "2572",
+        "TYPE": "bar",
+        "DB": "phone_market",
+        "TABLE": "phone",
+        "Query": "A bar chart about what are the memories and carriers of phones?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5832,
+        "KEY": "3279",
+        "TYPE": "bar",
+        "DB": "wrestler",
+        "TABLE": "elimination",
+        "Query": "Show different teams in eliminations and the number of eliminations from each team by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5836,
+        "KEY": "2922@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Return a bar chart about the distribution of meter_600 and ID , and display by the Y in asc.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5880,
+        "KEY": "1839",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Bin the hire date of employees into the day of week interval and count them for visualizing a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5889,
+        "KEY": "96@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "apartment_rentals",
+        "TABLE": "Apartments",
+        "Query": "Show the minimum room count of apartments in different type with a bar chart, display by the bars in ascending.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5890,
+        "KEY": "2308",
+        "TYPE": "bar",
+        "DB": "manufacturer",
+        "TABLE": "furniture",
+        "Query": "Visualize the name and their component amounts with a bar chart for all furnitures that have more than 10 components.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5911,
+        "KEY": "1467",
+        "TYPE": "scatter",
+        "DB": "game_1",
+        "TABLE": "Student",
+        "Query": "Return a scatter chart showing the relationship between major id and average age.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5926,
+        "KEY": "1084",
+        "TYPE": "pie",
+        "DB": "decoration_competition",
+        "TABLE": "member",
+        "Query": "How many members are there in each country? Visualize in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5929,
+        "KEY": "865",
+        "TYPE": "line",
+        "DB": "cre_Drama_Workshop_Groups",
+        "TABLE": "BOOKINGS",
+        "Query": "Show all the planned delivery dates and bin by year in a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 5952,
+        "KEY": "683",
+        "TYPE": "bar",
+        "DB": "company_employee",
+        "TABLE": "company",
+        "Query": "What is the number of companies for each headquarter? Visualize by bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5955,
+        "KEY": "742",
+        "TYPE": "scatter",
+        "DB": "cre_Doc_Template_Mgt",
+        "TABLE": "Templates",
+        "Query": "Show the relationship between version number and template id in a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5959,
+        "KEY": "1149",
+        "TYPE": "bar",
+        "DB": "device",
+        "TABLE": "device",
+        "Query": "A bar chart about what are the different software platforms for devices, and how many devices have each?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 5991,
+        "KEY": "2800",
+        "TYPE": "bar",
+        "DB": "soccer_2",
+        "TABLE": "college",
+        "Query": "Show the smallest enrollment of each state using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6013,
+        "KEY": "1238@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "Bar graph to show maximal age from different sex, could you order by the Y in asc?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6015,
+        "KEY": "2915@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Show me about the distribution of name and meter_100 in a bar chart, could you rank by the bar from low to high?",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6060,
+        "KEY": "1462",
+        "TYPE": "bar",
+        "DB": "game_1",
+        "TABLE": "Sportsinfo",
+        "Query": "Show all sport name and the number of students in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6096,
+        "KEY": "1269",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Visualize a bar chart about the distribution of  middle_name and  gender_mf .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6099,
+        "KEY": "858",
+        "TYPE": "pie",
+        "DB": "cre_Drama_Workshop_Groups",
+        "TABLE": "PRODUCTS",
+        "Query": "For each distinct product name, show its average product price. Plot them as pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6104,
+        "KEY": "2623",
+        "TYPE": "bar",
+        "DB": "program_share",
+        "TABLE": "broadcast",
+        "Query": "Count the number of programs broadcast for each time section of a day in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6116,
+        "KEY": "2586",
+        "TYPE": "pie",
+        "DB": "pilot_record",
+        "TABLE": "pilot",
+        "Query": "Show me a pie chart for what are the different nationalities of pilots? Show each nationality and the number of pilots of each nationality.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6125,
+        "KEY": "2907",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Give me the comparison about the average of ID over the  Nationality , and group by attribute Nationality by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6171,
+        "KEY": "1909@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Visualize a bar chart for simply displaying the email address of the employee and the corresponding employee id, order in ascending by the Y-axis.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6191,
+        "KEY": "673",
+        "TYPE": "scatter",
+        "DB": "college_3",
+        "TABLE": "COURSE",
+        "Query": "Draw a scatter chart about the correlation between  CID and  Credits .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6237,
+        "KEY": "165",
+        "TYPE": "bar",
+        "DB": "baseball_1",
+        "TABLE": "home_game",
+        "Query": "How many home games by each weekday (bin the year attr into weekdays interval)? Give me a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6247,
+        "KEY": "2603",
+        "TYPE": "line",
+        "DB": "product_catalog",
+        "TABLE": "Catalogs",
+        "Query": "Find the dates on which more than one revisions were made, and the bin the date of latest revision into weekday interval and count them as a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6285,
+        "KEY": "1238@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "student",
+        "Query": "What is the oldest age for each gender of student? Return a bar chart, sort in descending by the X-axis.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6296,
+        "KEY": "1896@y_name@ASC",
+        "TYPE": "bar",
+        "DB": "hr_1",
+        "TABLE": "employees",
+        "Query": "Bar chart x axis first name y axis salary, and order by the total number from low to high.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6368,
+        "KEY": "3105",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Give me the comparison about the average of School_ID over the  All_Home , and group by attribute All_Home by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6384,
+        "KEY": "274",
+        "TYPE": "scatter",
+        "DB": "behavior_monitoring",
+        "TABLE": "Student_Addresses",
+        "Query": "Draw a scatter chart about the correlation between  student_id and  address_id .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6389,
+        "KEY": "2327",
+        "TYPE": "bar",
+        "DB": "medicine_enzyme_interaction",
+        "TABLE": "medicine",
+        "Query": "Show me a bar chart for what is the id and trade name of the medicines can interact with at least 3 enzymes?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6409,
+        "KEY": "3150",
+        "TYPE": "pie",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a pie chart about the proportion of  ACC_Regular_Season and  ACC_Percent.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6413,
+        "KEY": "3098",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Draw a bar chart about the distribution of  ACC_Road and the sum of Team_ID , and group by attribute ACC_Road.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6432,
+        "KEY": "698",
+        "TYPE": "pie",
+        "DB": "concert_singer",
+        "TABLE": "singer",
+        "Query": "Show the number of singers in each country with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6439,
+        "KEY": "2348",
+        "TYPE": "pie",
+        "DB": "mountain_photos",
+        "TABLE": "camera_lens",
+        "Query": "Count the brand of each camera lens with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6456,
+        "KEY": "3110@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Find Team_Name and Team_ID , and visualize them by a bar chart, list X-axis in descending order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6484,
+        "KEY": "3192",
+        "TYPE": "bar",
+        "DB": "voter_1",
+        "TABLE": "votes",
+        "Query": "List the states of all votes, group states and count them in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6501,
+        "KEY": "1124",
+        "TYPE": "bar",
+        "DB": "department_store",
+        "TABLE": "products",
+        "Query": "What is the average price for each type of product. Visualize by bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6508,
+        "KEY": "1182",
+        "TYPE": "bar",
+        "DB": "dog_kennels",
+        "TABLE": "Dogs",
+        "Query": "How many dogs departed in each day? Visualize with a bar chart that groups by departed date.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6545,
+        "KEY": "117",
+        "TYPE": "bar",
+        "DB": "assets_maintenance",
+        "TABLE": "Assets",
+        "Query": "Show the number of assets and group by asset make in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6552,
+        "KEY": "2186@y_name@DESC",
+        "TYPE": "bar",
+        "DB": "manufactory_1",
+        "TABLE": "products",
+        "Query": "What are the names of the cheapest products in each category along with the cheapest price in a bar chart?, and rank in descending by the Y please.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6554,
+        "KEY": "2593",
+        "TYPE": "pie",
+        "DB": "poker_player",
+        "TABLE": "people",
+        "Query": "How many people are there of each nationality. Visualize by pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6567,
+        "KEY": "1297",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Student_Course_Enrolment",
+        "Query": "List the number of completion students in each day and bin date of completion by weekday with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6568,
+        "KEY": "464",
+        "TYPE": "bar",
+        "DB": "cinema",
+        "TABLE": "cinema",
+        "Query": "Show each location and the number of cinemas there by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6605,
+        "KEY": "3005",
+        "TYPE": "bar",
+        "DB": "tracking_share_transactions",
+        "TABLE": "TRANSACTIONS",
+        "Query": "Show the average transaction amount for different transaction types with a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6617,
+        "KEY": "1265",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Find  personal_name and  author_tutor_ATB , and visualize them by a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6669,
+        "KEY": "2925@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "swimming",
+        "TABLE": "swimmer",
+        "Query": "Show me about the distribution of meter_700 and meter_100 in a bar chart, could you sort by the meter_700 in asc?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6678,
+        "KEY": "1211",
+        "TYPE": "bar",
+        "DB": "dorm_1",
+        "TABLE": "dorm",
+        "Query": "Find total capacity of dorms for each gender in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6681,
+        "KEY": "2316",
+        "TYPE": "bar",
+        "DB": "match_season",
+        "TABLE": "player",
+        "Query": "Group and count the years played to draw a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6729,
+        "KEY": "2201",
+        "TYPE": "bar",
+        "DB": "manufactory_1",
+        "TABLE": "manufacturers",
+        "Query": "Find the total revenue of companies of each founder. Visualize by bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6744,
+        "KEY": "2647",
+        "TYPE": "pie",
+        "DB": "race_track",
+        "TABLE": "race",
+        "Query": "Show the race class and number of races in each class in a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6748,
+        "KEY": "2351",
+        "TYPE": "bar",
+        "DB": "mountain_photos",
+        "TABLE": "photos",
+        "Query": "Compare the number of items in each color scheme using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6769,
+        "KEY": "831",
+        "TYPE": "scatter",
+        "DB": "cre_Docs_and_Epenses",
+        "TABLE": "Accounts",
+        "Query": "Show all statement id and the number of accounts for each statement in a scatter chart",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6776,
+        "KEY": "773",
+        "TYPE": "line",
+        "DB": "cre_Doc_Tracking_DB",
+        "TABLE": "Document_locations",
+        "Query": "Show the number of documents in different ending date and group by ending date with a line chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6807,
+        "KEY": "3256@x_name@ASC",
+        "TYPE": "line",
+        "DB": "wine_1",
+        "TABLE": "WINE",
+        "Query": "Visualize the general trend of maximal price over the year, I want to sort X-axis in asc order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6809,
+        "KEY": "1493",
+        "TYPE": "bar",
+        "DB": "game_injury",
+        "TABLE": "game",
+        "Query": "Show the number of games for each away team in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6827,
+        "KEY": "2018",
+        "TYPE": "bar",
+        "DB": "insurance_policies",
+        "TABLE": "Settlements",
+        "Query": "Bin the settlement date for each settlement case into the day of week interval and count them for visualizing a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6839,
+        "KEY": "3125",
+        "TYPE": "pie",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Visualize a pie chart about the proportion of All_Home and the sum of School_ID.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6859,
+        "KEY": "1326@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "election_representative",
+        "TABLE": "election",
+        "Query": "Show vote_percent from each date, and I want to rank by the x-axis from high to low.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6870,
+        "KEY": "432",
+        "TYPE": "scatter",
+        "DB": "car_1",
+        "TABLE": "CARS_DATA",
+        "Query": "What is the maximum accelerate for different number of cylinders. Show scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6875,
+        "KEY": "563",
+        "TYPE": "pie",
+        "DB": "college_1",
+        "TABLE": "student",
+        "Query": "Find the number of students for each department. Visualize by pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6884,
+        "KEY": "2944@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "theme_gallery",
+        "TABLE": "artist",
+        "Query": "What are the names and ages of artists? Show the result in a bar graph, and show x axis in asc order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6913,
+        "KEY": "74",
+        "TYPE": "bar",
+        "DB": "apartment_rentals",
+        "TABLE": "Apartment_Bookings",
+        "Query": "Show the booking status code and the corresponding number of bookings in a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6917,
+        "KEY": "3141@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "university_basketball",
+        "TABLE": "basketball_match",
+        "Query": "Return a bar chart about the distribution of All_Road and ACC_Percent , and rank in desc by the X-axis.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6919,
+        "KEY": "991",
+        "TYPE": "scatter",
+        "DB": "customers_and_invoices",
+        "TABLE": "Order_items",
+        "Query": "Show order ids and the total quantity in each order by a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6932,
+        "KEY": "2127",
+        "TYPE": "bar",
+        "DB": "local_govt_in_alabama",
+        "TABLE": "Participants",
+        "Query": "Please draw a histogram to show the total number of participants in each type code.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6951,
+        "KEY": "2645",
+        "TYPE": "pie",
+        "DB": "race_track",
+        "TABLE": "track",
+        "Query": "Show names and seatings for all tracks opened after 2000 by a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6954,
+        "KEY": "1264",
+        "TYPE": "bar",
+        "DB": "e_learning",
+        "TABLE": "Course_Authors_and_Tutors",
+        "Query": "Draw a bar chart about the distribution of  personal_name and  author_id .",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6974,
+        "KEY": "354",
+        "TYPE": "scatter",
+        "DB": "body_builder",
+        "TABLE": "body_builder",
+        "Query": "Draw a scatter chart about the correlation between  Snatch and  Total .",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 6990,
+        "KEY": "1338",
+        "TYPE": "line",
+        "DB": "employee_hire_evaluation",
+        "TABLE": "hiring",
+        "Query": "Show me about the change of  Shop_ID over  Start_from  in a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 6996,
+        "KEY": "2011",
+        "TYPE": "bar",
+        "DB": "insurance_policies",
+        "TABLE": "Payments",
+        "Query": "How many total amounts of payments by each method code? You can give me a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7002,
+        "KEY": "3057",
+        "TYPE": "pie",
+        "DB": "tvshow",
+        "TABLE": "TV_Channel",
+        "Query": "List each language and the number of TV Channels using it with a pie chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7013,
+        "KEY": "412",
+        "TYPE": "bar",
+        "DB": "car_1",
+        "TABLE": "CARS_DATA",
+        "Query": "How many cars each weekday (by bin the year into a day of the week interval)? Show me the bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7016,
+        "KEY": "819",
+        "TYPE": "scatter",
+        "DB": "cre_Docs_and_Epenses",
+        "TABLE": "Accounts",
+        "Query": "Show the correlation between statement id and account detail in a scatter chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7036,
+        "KEY": "471",
+        "TYPE": "line",
+        "DB": "cinema",
+        "TABLE": "cinema",
+        "Query": "Tell me the average of capacity of cinemas open for each year in a line chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 7061,
+        "KEY": "62",
+        "TYPE": "scatter",
+        "DB": "allergy_1",
+        "TABLE": "Student",
+        "Query": "Show all ages and corresponding number of students in a scatter chart",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7080,
+        "KEY": "1129@x_name@ASC",
+        "TYPE": "bar",
+        "DB": "department_store",
+        "TABLE": "products",
+        "Query": "Give the maximum product price for each product type in a bar chart, and show X-axis in asc order.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7108,
+        "KEY": "3284",
+        "TYPE": "scatter",
+        "DB": "wrestler",
+        "TABLE": "wrestler",
+        "Query": "Show the reign and days held of wrestlers in a scatter chart",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7123,
+        "KEY": "2087",
+        "TYPE": "bar",
+        "DB": "local_govt_and_lot",
+        "TABLE": "Things",
+        "Query": "Compare the number of items in the type of each thing using a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7163,
+        "KEY": "3195",
+        "TYPE": "bar",
+        "DB": "voter_1",
+        "TABLE": "votes",
+        "Query": "List the states of all votes, compute the total number of states, and compute the average of their vote id with a bar chart.",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 7170,
+        "KEY": "1032",
+        "TYPE": "bar",
+        "DB": "customers_card_transactions",
+        "TABLE": "Financial_transactions",
+        "Query": "Show the transaction type and the number of transactions by a bar chart.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7171,
+        "KEY": "623@x_name@DESC",
+        "TYPE": "bar",
+        "DB": "college_2",
+        "TABLE": "classroom",
+        "Query": "Find the maximum capacity among rooms in each building with a bar chart, rank by the X-axis from high to low.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7176,
+        "KEY": "3247@x_name@DESC",
+        "TYPE": "line",
+        "DB": "wine_1",
+        "TABLE": "WINE",
+        "Query": "Can you draw the trend of maximal score over the year?, rank by the x-axis in descending.",
+        "HUMAN": "G"
+    },
+    {
+        "ID": 7188,
+        "KEY": "114",
+        "TYPE": "bar",
+        "DB": "architecture",
+        "TABLE": "architect",
+        "Query": "Draw a bar chart for what are the ids and names of the architects who built at least 3 bridges ?",
+        "HUMAN": "B"
+    },
+    {
+        "ID": 7220,
+        "KEY": "1100",
+        "TYPE": "line",
+        "DB": "department_management",
+        "TABLE": "department",
+        "Query": "Show sum of budget in different year and group by department creation time with a line chart.",
+        "HUMAN": "G"
+    }
+]
