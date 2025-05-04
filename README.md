@@ -18,8 +18,8 @@ The project uses the MiniCPM-V-2_6 model as a base and supports LoRA fine-tuning
 1. Clone the repository
 2. Create a virtual environment and activate it:
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   virtualenv -p python3.11. .venv
+   source .venv/bin/activate 
    ```
 3. Install dependencies:
    ```bash
@@ -35,6 +35,24 @@ The dataset consists of pairs of chart images organized in directories:
 Each visualization pair is stored in a directory (e.g., `VIS_1796/`) containing:
 - `visualization.png`: The first chart image
 - `ref_visualization.png`: The reference chart image for comparison
+## Example Visualization
+
+### Input Images
+
+![Visualization 1](finetune_dataset/VIS_1796/visualization.png)
+![Visualization 2](finetune_dataset/VIS_1796/ref_visualization.png)
+
+### Predicted Result
+
+```json
+{
+  "similarity_score": 0.93,
+  "difference_summary": "The charts have a high semantic similarity with data point values and axis labels. The only notable difference is the order of data points along the x-axis."
+}
+```
+
+This example shows a pair of chart images from the `VIS_1796` directory in the fine-tuning dataset, along with a sample predicted result demonstrating the similarity score and difference summary.
+
 
 ## Usage
 
