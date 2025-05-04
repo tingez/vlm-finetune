@@ -68,6 +68,13 @@ python ds_cli.py generate-finetune-datafile \
   --prompt-file ./prompts/comparison_prompt_minicpm-v2.6.txt
 ```
 
+### Finetune
+```bash
+./finetune_lora.sh
+```
+![start_finetune](assets/start_finetune.png)
+![state](assets/state.png)
+
 ### Model Evaluation
 
 Evaluate model performance on a test dataset:
