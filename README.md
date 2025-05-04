@@ -18,7 +18,7 @@ The project uses the MiniCPM-V-2_6 model as a base and supports LoRA fine-tuning
 1. Clone the repository
 2. Create a virtual environment and activate it:
    ```bash
-   virtualenv -p python3.11. .venv
+   virtualenv -p python3.11 .venv
    source .venv/bin/activate 
    ```
 3. Install dependencies:
