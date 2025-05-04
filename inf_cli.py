@@ -106,9 +106,9 @@ def process_images(model, tokenizer, prompt: str,
 
 @app.command()
 def evaluate(
-    dataset_dir: str = typer.Option("../test_dataset", help="Path to dataset directory"),
+    dataset_dir: str = typer.Option("./test_dataset", help="Path to dataset directory"),
     dataset_filename: str = typer.Option("dataset.json", help="dataset file name"),
-    question_file: str = typer.Option("./question.txt", help="Path to question file"),
+    prompt_file: str = typer.Option("./prompts/comparison_prompt_minicpm-v2.6.txt", help="Path to question file"),
     use_lora: bool = typer.Option(False, help="Whether to use LoRA model"),
     lora_path: Optional[str] = typer.Option(None, help="Path to LoRA adapter"),
     model_name: str = typer.Option("openbmb/MiniCPM-V-2_6", help="Model name or path"),
@@ -119,7 +119,7 @@ def evaluate(
     Evaluate image similarity using MiniCPM-V model with optional LoRA fine-tuning.
     """
     # Load question from file
-    question = load_question_from_file(question_file)
+    question = load_prompt_from_file(prompt_file)
     if not question:
         print(f"Failed to load question from {question_file}")
         return
@@ -177,40 +177,6 @@ def evaluate(
     else:
         print("No images were successfully evaluated")
 
-
-@app.command()
-def generate_finetune_datafile(
-    dataset_dir: str = typer.Option("../finetune_dataset", help="Path to dataset directory"),
-    template_filename: str = typer.Option("template.json", help="template file name"),
-    dataset_filename: str = typer.Option("dataset.json", help="output dataset file name"),
-    prompt_file: str = typer.Option("./comparison_prompt_legacy.txt", help="Path to prompt file"),
-):
-    """
-    Generate finetune data file from template and prompt file.
-    """
-    # generate finetune data file from template and prompt file
-    template_file = os.path.join(dataset_dir, template_filename)
-    dataset_file = os.path.join(dataset_dir, dataset_filename)
-
-    prompt = load_prompt_from_file(prompt_file)
-    if not prompt:
-        print(f"Failed to load prompt from {prompt_file}")
-        return
-
-    # load template
-    template_fd = open(template_file, 'r', encoding='utf-8')
-    template_json = json.load(template_fd)
-    template_fd.close()
-    for item in template_json:
-        item['conversations'][0]['content'] = prompt
-        item['image']['<image_00>'] = os.path.join(dataset_dir, item['image']['<image_00>'])
-        item['image']['<image_01>'] = os.path.join(dataset_dir, item['image']['<image_01>'])
-    
-    
-    # save template
-    dataset_fd = open(dataset_file, 'w', encoding='utf-8')
-    json.dump(template_json, dataset_fd, indent=4)
-    dataset_fd.close()
 
 @app.command()
 def single_test_4_two_images(
